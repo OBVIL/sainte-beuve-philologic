@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xml:lang="fre" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt><title>XLIV</title><author key="Sainte-Beuve, Charles-Augustin (1804-1869)" ref="https://data.bnf.fr/fr/11923412/charles-augustin_sainte-beuve/">Charles                    Augustin Sainte-Beuve</author><editor/></titleStmt><editionStmt><edition>OBVIL</edition><respStmt><name>Romain Jalabert</name><resp>Édition TEI</resp>
+</respStmt><respStmt><name>Anne-Laure Huet</name><resp>Structuration XML-TEI</resp>
+</respStmt></editionStmt><publicationStmt><publisher>Sorbonne Université, LABEX OBVIL</publisher><date when="2019"/><idno>http://obvil.sorbonne-universite.fr/corpus/</idno><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2018 Université Paris-Sorbonne, agissant pour le                            Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après                            dénommé OBVIL).</p><p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette                            ressource électronique, notamment en intégrant toutes les contributions                            extérieures. La diffusion de versions modifiées de cette ressource n’est                            pas souhaitable.</p><p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté                            scientifique, toute utilisation commerciale est interdite.</p><p>Attribution : afin de référencer la source, toute utilisation ou                            publication dérivée de cette ressource électroniques comportera le nom                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p><p>Cette ressource électronique protégée par le code de la propriété                            intellectuelle sur les bases de données (L341-1) est mise à disposition                            de la communauté scientifique internationale par l’OBVIL, selon les                            termes de la licence Creative Commons : « Attribution — Pas                            d’Utilisation Commerciale — Pas de Modification 3.0 France (CC BY-NC-ND                            3.0 FR) ».</p></licence></availability></publicationStmt><sourceDesc><bibl><author>Charles Augustin Sainte-Beuve</author>, <title>Chroniques parisiennes (1843-1845)</title>, <edition>2e éd.</edition>, <pubPlace>Paris</pubPlace>, <publisher>C. Lévy</publisher>, <date>1876</date>. </bibl></sourceDesc></fileDesc>
+<profileDesc>
+<creation><date when="1844-01-08"/></creation><langUsage><language ident="fre"/></langUsage><textClass><keywords><term/></keywords></textClass></profileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="article" xml:id="art_1844-01-08"><head>XLIV</head><pb n="175" xml:id="p175"/><dateline>Ce 8 janvier 1844.</dateline><p>Nous apprenons avec plaisir que les nouvelles de la santé du <hi rend="i">bon Nodier</hi> (car c’est là son nom) sont meilleures, et que ses nombreux amis espèrent posséder encore longtemps en lui un talent et un cœur qui leur seront plus chers que jamais.</p><p>— Janin a essayé de répondre ce matin à propos de <hi rend="i">Bérénice</hi> ; mais il est bien tard pour faire l’homme de goût.</p></div></body>
+</text>
+</TEI>
+

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xml:lang="fre" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Une discussion dans les bureaux du Constitutionnel</title>
+                <author key="Sainte-Beuve, Charles-Augustin (1804-1869)"
+                    ref="https://data.bnf.fr/fr/11923412/charles-augustin_sainte-beuve/">Charles
+                    Augustin Sainte-Beuve</author>
+                <editor/>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Romain Jalabert</name>
+                    <resp>Édition TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Anne-Laure Huet</name>
+                    <resp>Structuration XML-TEI</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://obvil.sorbonne-universite.fr/corpus/</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"
+                            ><p>Copyright © 2018 Université Paris-Sorbonne, agissant pour le
+                            Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après
+                            dénommé OBVIL).</p><p>Pas de Modification : l’OBVIL s’engage à améliorer
+                            et à corriger cette ressource électronique, notamment en intégrant
+                            toutes les contributions extérieures. La diffusion de versions modifiées
+                            de cette ressource n’est pas souhaitable.</p><p>Pas d’Utilisation
+                            Commerciale : dans l’intérêt de la communauté scientifique, toute
+                            utilisation commerciale est interdite.</p><p>Attribution : afin de
+                            référencer la source, toute utilisation ou publication dérivée de cette
+                            ressource électroniques comportera le nom de l’OBVIL et surtout
+                            l’adresse Internet de la ressource.</p><p>Cette ressource électronique
+                            protégée par le code de la propriété intellectuelle sur les bases de
+                            données (L341-1) est mise à disposition de la communauté scientifique
+                            internationale par l’OBVIL, selon les termes de la licence Creative
+                            Commons : « Attribution — Pas d’Utilisation Commerciale — Pas de
+                            Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p></licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author>Charles Augustin Sainte-Beuve</author>, <title>Nouveaux
+                    lundis</title>, <edition/>, <pubPlace>Paris</pubPlace>, <publisher>Michel Lévy
+                        frères</publisher>, <date>1878</date>. </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1870-01-01"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="article" xml:id="art_1870-01-01_b">
+                <head>[Note de Jules Troubat]</head>
+                <p>À l’occasion de ces articles sur Talleyrand, M. Sainte-Beuve reçut un grand
+                    nombre de lettres et documents de toute espèce, dont il se proposait de tirer
+                    parti pour écrire ici, en manière d’appendice ou de <hi rend="i"
+                        >post-scriptum</hi>, un article final et inédit, qui eût été un dernier mot
+                    sur Talleyrand. Ces communications sont restées à l’état de notes et de
+                    dossier : ce sont des matériaux dont l’éditeur ne se croit pas le droit de faire
+                    usage, à l’aide d’une rédaction qui trouverait place dans un volume même des <hi
+                        rend="i">Nouveaux Lundis</hi>. Le choix dans les citations à recueillir est
+                    un art trop délicat et trop difficile pour se le permettre dans un livre de
+                    M. Sainte-Beuve. On risquerait trop de les mal utiliser, ou de les placer à
+                    contre-sens. Je ne puis cependant élaguer entièrement toute la partie
+                    anecdotique qui y foisonne, et qui vient comme autant de pièces à l’appui de
+                    tout ce qu’on sait et de ce qu’on a dit de la vénalité, de l’esprit d’à-propos,
+                    de l’amabilité, de la grâce, de tous les talents et vices de M. de Talleyrand.
+                    Ainsi, pour en donner un exemple :</p>
+                <quote>
+                    <p>« Mais les preuves ! » s’écrie M. Sainte-Beuve, dans une de ces notes
+                        préparées et rédigées d’avance, — « les preuves, je les ai données, elles
+                        suffisent à tout homme de bonne foi. Si vous vous attendez à trouver des
+                        reçus signés <hi rend="i">Talleyrand</hi>, vous êtes trop simples ; vous ne
+                        les aurez pas. Des reçus, en voulez-vous ? — Ces affaires d’argent amenaient
+                        quelquefois des incidents comiques. M. de Lancy, que nous avons connu
+                        administrateur de la bibliothèque Sainte-Geneviève et qui avait autrefois
+                        rempli un poste assez important au ministère de l’intérieur, aimait à
+                        raconter des anecdotes qu’il savait d’original, notamment celle-ci : Un jour
+                        un des hauts personnages qui avait dû financer avec M. de Talleyrand, et qui
+                        tenait à savoir pourtant si son argent n’était pas resté en chemin, et s’il
+                        était bien arrivé à son adresse, exigea un signe, une marque qui l’en
+                        assurât. En conséquence, il fut convenu qu’à la prochaine réception,
+                        M. de Talleyrand, passant près de lui, lui adresserait une parole en
+                        apparence insignifiante, par exemple : <hi rend="i">Comment va
+                            madame ?…</hi> ou tout autre mot<note place="bottom" resp="author">Se
+                            rappeler, dans <hi rend="i">Célimare le bien-aimé</hi>, le mari qui
+                            vient dire à l’amant de sa femme le mot convenu : <quote>« Ma femme m’a
+                                dit de venir te demander les <hi rend="i"
+                            >Nord</hi>. »</quote></note> ; ce qui fut fait et qui tint lieu de reçu.
+                        — Pour un descendant de si haute race, et un si fier aristocrate, n’est-ce
+                        pas deux fois honteux et humiliant ? »</p>
+                </quote>
+                <p>Une autre encore qui peut facilement se détacher et qui est caractéristique :</p>
+                <quote>
+                    <p>« Lord Palmerston disait que quand Talleyrand venait le voir pour affaire, il
+                        avait presque toujours dans sa voiture Montrond, afin de lui expédier vite
+                        ses indications utiles pour jouer et agioter. »</p>
+                </quote>
+                <p>Et celle-ci, où Talleyrand voulut paraître désintéressé pour la galerie, mais ce
+                    dont Louis-Philippe, qui payait, ne fut pas dupe :</p>
+                <quote>
+                    <p>« M. de Talleyrand avait été brouillé, dans les derniers temps, avec le roi
+                        Louis-Philippe. Il touchait deux pensions : l’une de 100,000 francs, l’autre
+                        de 16,000, je ne sais à quel titre particulier. Quand il se brouilla avec le
+                        roi, il remit l’une des deux pensions, mais ce fut celle de 16,000. Sur quoi
+                        Louis-Philippe, qui n’était homme à se retenir sur rien, ne pouvait
+                        s’empêcher de faire des gorges chaudes : “Savez-vous, de ses deux pensions,
+                        laquelle M. de Talleyrand m’a renvoyée ? — celle de 16,000.” »</p>
+                </quote>
+                <p>Ces échantillons font regretter le reste, et il y en a bien d’autres encore qui
+                    ne sont qu’ébauchées. M. Sainte-Beuve affectionnait ce genre de traits
+                    anecdotiques, qui peint l’homme au vif : il en a recueilli toutes les fois qu’il
+                    en a trouvé l’occasion et sur des hommes en vue, au nom populaire, qui y avaient
+                    considérablement prêté. Mais sous sa plume, la rédaction n’en est jamais
+                    définitive, pour si parfaite qu’elle soit : elle peut varier, selon
+                    l’appropriation qu’il leur donne : tout dépend en ce cas de l’emmanchement ou de
+                    l’embranchement, et celui qui a vu le critique à l’œuvre se gardera bien de
+                    toucher après lui, et sans lui, à un tel travail.</p>
+                <p>Je vais donc me borner à ne plus puiser encore dans ce dossier que quelques
+                    lettres qui peuvent, autant qu’il me semble, et sans trop d’indiscrétion
+                    aujourd’hui pour personne, supporter la lumière et le grand jour, et en apporter
+                    même encore un peu, par la vivacité avec laquelle elles ont été écrites, sur
+                    quelques-uns des points principaux autour desquels M. Sainte-Beuve a établi la
+                    discussion dans ses articles sur Talleyrand. Qu’on se rassure d’ailleurs ! Je
+                    n’emprunterai guère qu’à la Correspondance de M. Sainte-Beuve lui-même.</p>
+                <p>Dans ce choix un peu arbitraire que j’ai fait, il faut, je crois, citer tout
+                    d’abord celle des lettres de M. Sainte-Beuve qui peut paraître la plus
+                    importante, au point de vue de l’appréciation du caractère et de l’esprit en
+                    M. de Talleyrand. Elle est adressée à M. Jules Claretie, qui, après la
+                    publication de ces articles dans le journal <hi rend="i">le Temps</hi>, avait
+                    envoyé à M. Sainte-Beuve quelques passages d’une correspondance peu connue de
+                    M. de Talleyrand avec la duchesse de Courlande, un entre autres où
+                    M. de Talleyrand se montre défendant la cause de l’humanité, pendant qu’on
+                    bataillait sur le territoire français, en mars 1814. — Voici ce passage, que je
+                    copie d’après l’obligeante communication que M. Claretie en a faite à
+                    M. Sainte-Beuve. — L’armée française venait de remporter une victoire à
+                    Reims :</p>
+                <quote>
+                    <p>« Il faut s’en réjouir, écrivait M. de Talleyrand à la duchesse de Courlande
+                        (15 mars 1814), si c’est un acheminement à la paix ; sans cela, c’est encore
+                        du monde de tué, et la pauvre humanité se détruit chaque jour avec un
+                        acharnement épouvantable. »</p>
+                </quote>
+                <p>Ces mots d’apitoiement sur la <hi rend="i">pauvre humanité</hi>, dans la bouche
+                    de Talleyrand, ont étonné M. Claretie, qui, comme on sait, fait la guerre à
+                        Napoléon I<hi rend="sup">er</hi>.</p>
+                <p>Talleyrand écrivait encore le 31 mai 1814 (au lendemain du traité de paix) :</p>
+                <quote>
+                    <p>« J’ai fini ma paix avec les quatre grandes puissances : les trois autres ne
+                        sont que des broutilles. À quatre heures, la paix a été signée ; elle est
+                        très bonne, faite sur le pied de la plus grande égalité, et plutôt noble,
+                        quoique la France soit encore couverte d’étrangers. »</p>
+                </quote>
+                <p><hi rend="i">Plutôt noble !…</hi> — M. Sainte-Beuve répondit à la communication
+                    amicale et toute bienveillante de M. Claretie, qui cherchait, dans ces passages
+                    de lettres de Talleyrand, des circonstances atténuantes en faveur de celui qui
+                    les avait écrites :</p>
+                <quote>
+                    <p>« (Ce 7 avril 1869.) — Mon cher ami, je vous remercie de votre aimable
+                        témoignage d’attention. Je n’ai pas connu ces lettres à la duchesse de
+                        Courlande, qui, je crois, avait été l’amie de Talleyrand, et qui était mère
+                        de M<hi rend="sup">me</hi> de Dino. Je suis à l’avance persuadé que tout ce
+                        qu’on trouvera de lettres et d’écrits de Talleyrand donnera de lui une
+                        favorable idée. Des gens d’esprit comme lui ne mettent jamais le pire de
+                        leur pensée ou de leur vie dans des papiers écrits. L’Essai de sir Henry
+                        Bulwer est précisément fait dans votre sens, et c’est pour cela que je n’ai
+                        pas dû y insister. J’accepte en général les jugements de l’auteur anglais,
+                        mais je les complète, et j’y mêle le grain de poivre que la politesse avait
+                        toujours chez nous empêché d’y mettre. Il est bien certain qu’à un moment de
+                        l’Empire, Talleyrand a pensé que c’en était assez de guerres comme cela et
+                        de conquêtes. Il a dit à un certain jour ce mot qui doit lui être compté :
+                            “<hi rend="i">Je ne veux pas</hi>, ou <hi rend="i">je ne veux plus être,
+                            le bourreau de l’Europe.</hi>” — Quant à M. Villemain, je conçois très
+                        bien, par les sentiments et les passions quasi légitimes qui régnaient alors
+                        dans toute une partie de la société et de la nation, qu’il ait fait son
+                        fameux compliment à l’empereur Alexandre. Il n’y a pas de quoi lui en faire
+                        un crime, car cela s’explique très bien ; mais pourtant ce n’est pas là un
+                        honneur ni un bonheur dans sa vie.</p>
+                    <p>« Comment pourrait-on admettre que Louis-Philippe eût dit à Talleyrand ce mot
+                        au lit de mort : — « <hi rend="i">Comme un</hi> « <hi rend="i">damné…</hi> —
+                            <hi rend="i">déjà</hi> ? » Ce sont nos pasquinades à la française. La
+                        visite de Louis-Philippe avait plusieurs témoins, et sir Henry Bulwer donne
+                        le récit d’un de ces témoins mêmes.</p>
+                    <p>« J’ai du reste écrit ces articles sans aucun parti pris ; je comptais
+                        d’abord n’en faire qu’un ou deux : le sujet m’a porté. Je ne hais ni n’aime
+                        Talleyrand ; je l’étudie et l’analyse et je ne m’interdis pas les réflexions
+                        qui me viennent chemin faisant : voilà tout.</p>
+                    <p>« J’aurais bien envie de connaître cette correspondance dont vous me citez
+                        des mots intéressants. Où est-elle ? où l’avez-vous lue<note place="bottom"
+                            resp="author"><hi rend="i">L’Amateur d’Autographes</hi> en avait publié,
+                            à ce qu’il paraît, des extraits. — M. Claretie en cite un encore des
+                            moins patriotiques, parodiant un mot célèbre de Napoléon, daté du
+                            20 janvier 1815, et adressé toujours à la duchesse de Courlande :
+                                <quote>« Les puissances ne sauraient prendre trop de sûretés dans le
+                                traité qu’elles feraient, si elles ne veulent pas être obligées à
+                                recommencer sur nouveaux frais l’année prochaine. Les mauvais
+                                restent toujours mauvais. »</quote></note> ?</p>
+                    <p>« Merci encore, et</p>
+                    <p rend="right">« Tout à vous, mon cher ami,</p>
+                    <p rend="right">« <hi rend="sc">Sainte-Beuve</hi>. »</p>
+                </quote>
+                <p>Dans une autre lettre à M. le comte A. de Gircourt, qui lui a de tout temps
+                    témoigné la plus vive sympathie, M. Sainte-Beuve écrivait, après la publication
+                    complète de ses articles dans <hi rend="i">le Temps</hi> :</p>
+                <quote>
+                    <p>« (Ce 12 mars 1869.) — Cher monsieur, votre suffrage m’est toujours précieux,
+                        et il me l’est cette fois plus encore, s’il est possible, qu’en d’autres
+                        circonstances, eu égard à la qualité du sujet sur lequel, à tous les titres,
+                        vous êtes un juge si compétent. Ce <hi rend="i">Talleyrand</hi> a eu bien de
+                        la peine à passer au gosier de certaines gens du monde ; il y a eu des
+                        arêtes : nous sommes un peuple si réellement léger, si engoué de ses hommes,
+                        si à la merci des jugements de société, que l’histoire, pour commencer à se
+                        constituer, a souvent besoin de nous arriver par l’étranger… »</p>
+                </quote>
+                <p>Et dans une note détachée et inédite, que je retrouve dans le dossier, il
+                    disait :</p>
+                <quote>
+                    <p>« J’ai écrit de bien longs articles, et pourtant ils sont des plus abrégés et
+                        des plus incomplets, je le sens, sur un tel sujet. Ce ne sont pas des
+                        articles, ce n’est pas un Essai qu’il faudrait faire sur Talleyrand, — c’est
+                        tout un livre, un ouvrage, et on attendra, pour l’écrire, que ses Mémoires,
+                        base essentielle bien que nécessairement contestable, aient paru. »</p>
+                </quote>
+                <p>De son côté, sir Henry Bulwer, dans une lettre de remerciaient à M. Sainte-Beuve,
+                    avait défini ainsi lui-même ce qu’il avait voulu faire en écrivant un volume
+                    d’Essai sur Talleyrand :</p>
+                <quote>
+                    <p>« L’idée que j’avais, dit sir Henry Bulwer, c’était de montrer le côté
+                        sérieux et sensé du caractère de cet homme du <num>xviii<hi rend="sup"
+                                >e</hi></num> siècle, sans faire du tort à son esprit ou trop louer
+                        son honnêteté. »</p>
+                </quote>
+                <p>Je passe sans transition, et pour finir et ne pas prolonger trop le poids d’une
+                    responsabilité qui pèse en ce moment sur l’éditeur seul dans le choix de ces
+                    citations authentiques, mais délicates, à un incident qui survint au <hi
+                        rend="i">Temps</hi> pendant la publication et dans l’intervalle d’un article
+                    à l’autre, et qui avait tout l’air d’une menace J’ai besoin de citer encore la
+                    lettre suivante de M. Sainte-Beuve à M. Nefftzer pour arriver à celle par
+                    laquelle je désire terminer :</p>
+                <quote>
+                    <p>« (Ce 8 mars 1869.) — Mon cher ami, je serais bien désolé de vous occasionner
+                        ainsi qu’au Journal un désagrément : évidemment le procès serait une
+                        vengeance (sous forme détournée)… J’ai fait mes articles sans prévention ni
+                        parti pris, reconnaissant les parties agréables et supérieures de l’homme.
+                        Que si pourtant on veut la guerre, on l’aura. Je suis en mesure de traiter
+                        le point délicat, la participation de Talleyrand dans le meurtre du duc
+                        d’Enghien. Je n’ai pas seulement des paroles de tradition, j’ai des textes :
+                        j’ai de plus (chose singulière !) une lettre expresse à ce sujet que m’a
+                        écrite, après mon premier ou mon second article, M. Troplong lui-même.
+                        Enfin, au premier mot de déclaration de guerre, je vous propose de vous
+                        donner un supplément d’article où je traiterai ce point : « M. de Talleyrand
+                        était certainement vénal et corrompu ; mais est-il vrai que, dans sa longue
+                        carrière, il n’ait fait de mal à personne ? »</p>
+                    <p>« Et en avant !</p>
+                    <p rend="right">« Tout à vous,</p>
+                    <p rend="right"><hi rend="sc">« Sainte-Beuve</hi><note place="bottom"
+                            resp="author">Et M. Edmond Scherer, son collaborateur, qui avait été
+                            témoin de toutes les chicanes et anicroches à l’aide desquelles on avait
+                            essayé d’entraver les articles de M. Sainte-Beuve au <hi rend="i"
+                                >Temps</hi>, lui écrivait, lorsque commença la publication du <hi
+                                rend="i">Talleyrand</hi> : <quote>« (Versailles, vendredi.) — Cher
+                                ami, vous avez pris le seul bon moyen de répondre aux reproches et
+                                aux injures, celui de confirmer par un nouvel article le parti si
+                                simple en lui-même que vous avez suivi. Mon Dieu ! que le monde est
+                                dégoûtant, méchant, violent !… »</quote></note>. »</p>
+                    <p/>
+                    <p>« <hi rend="i">P. S</hi>. Dieu nous garde, si un intérêt majeur pour eux y
+                        est engagé, de la douceur des corrompus ! »</p>
+                </quote>
+                <p>Voici la lettre de M. Troplong, bien près de sa fin alors lui-même (il est mort
+                    le 1<hi rend="sup">er</hi> mars suivant), et qui ne se contentait pas de
+                    répondre par renvoi d’une simple carte aux lettres polies par lesquelles un
+                    collègue s’excusait, pour des raisons de santé trop justifiées, de ne pouvoir
+                    assister aux séances du Sénat :</p>
+                <quote>
+                    <p>« (Palais du Petit-Luxembourg, le 3 février 1869.) — Mon cher collègue, je
+                        regrette bien d’apprendre par votre bonne lettre que l’état de votre santé
+                        nous prive de votre présence et vous retient chez vous. Mais heureusement
+                        qu’il sort de votre studieuse prison des morceaux littéraires que
+                        recherchent tous les gens de goût. J’ai lu vos deux derniers articles sur ce
+                            <hi rend="i">bon sujet</hi> de Talleyrand, comme disait M. de Maistre
+                        dans ses lettres. Vous avez parfaitement raison quand vous inclinez vers
+                        l’opinion qui le regarde comme un des instigateurs de l’arrestation et du
+                        meurtre du duc d’Enghien. Au témoignage de M. de Meneval que vous opposez au
+                        livre de M. Bulwer, on peut joindre celui de M. Rœderer (<hi rend="i"
+                            >Mémoires</hi>, t. III, p. 544). Il y a aussi un ouvrage qui jette
+                        beaucoup de jour sur cette affaire, c’est celui de M. de Nougarède,
+                        intitulé : <hi rend="i">Recherches sur le procès et la condamnation du duc
+                            d’Enghien</hi> (2 vol.). Ces documents mettent dans la plus grande
+                        lumière l’imposture de M. de Talleyrand voulant dégager sa responsabilité de
+                        ce fatal événement.</p>
+                    <p>« Mais je m’aperçois que je porte de l’eau à la fontaine, tandis que je ne
+                        veux que vous offrir tous mes sentiments empressés de bon et dévoué
+                        collègue.</p>
+                    <p rend="right">« <hi rend="sc">Troplong</hi>. »</p>
+                </quote>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xml:lang="fre" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Préface</title>
+                <author key="Sainte-Beuve, Charles-Augustin (1804-1869)"
+                    ref="https://data.bnf.fr/fr/11923412/charles-augustin_sainte-beuve/">Charles
+                    Augustin Sainte-Beuve</author>
+                <editor/>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Romain Jalabert</name>
+                    <resp>Édition TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Anne-Laure Huet</name>
+                    <resp>Structuration XML-TEI</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://obvil.sorbonne-universite.fr/corpus/</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"
+                            ><p>Copyright © 2018 Université Paris-Sorbonne, agissant pour le
+                            Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après
+                            dénommé OBVIL).</p><p>Pas de Modification : l’OBVIL s’engage à améliorer
+                            et à corriger cette ressource électronique, notamment en intégrant
+                            toutes les contributions extérieures. La diffusion de versions modifiées
+                            de cette ressource n’est pas souhaitable.</p><p>Pas d’Utilisation
+                            Commerciale : dans l’intérêt de la communauté scientifique, toute
+                            utilisation commerciale est interdite.</p><p>Attribution : afin de
+                            référencer la source, toute utilisation ou publication dérivée de cette
+                            ressource électroniques comportera le nom de l’OBVIL et surtout
+                            l’adresse Internet de la ressource.</p><p>Cette ressource électronique
+                            protégée par le code de la propriété intellectuelle sur les bases de
+                            données (L341-1) est mise à disposition de la communauté scientifique
+                            internationale par l’OBVIL, selon les termes de la licence Creative
+                            Commons : « Attribution — Pas d’Utilisation Commerciale — Pas de
+                            Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p></licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author>Charles Augustin Sainte-Beuve</author>, <title>Nouveaux
+                    lundis</title>, <edition/>, <pubPlace>Paris</pubPlace>, <publisher>Michel Lévy
+                        frères</publisher>, <date>1870</date>. </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1870-01-01"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="article" xml:id="art_1870-01-01_a">
+                <head>Préface</head>
+                <p>Ce volume devrait s’intituler <hi rend="i">Derniers Lundis</hi>. Les articles qui
+                    le composent, à partir du premier, sont pour la plupart ceux que M. Sainte-Beuve
+                    écrivit pour le journal <hi rend="i">le Temps</hi>, en 1869, l’année même de sa
+                        mort<note resp="author">M. Sainte-Beuve est mort à Paris le 13 octobre 1869,
+                        à une heure et demie de l’après-midi, dans sa maison de la rue Montparnasse,
+                        n° 11. — Les personnes présentes au moment de sa mort, et qui l’entouraient
+                        dans son cabinet même, près du lit où il rendit le dernier soupir, étaient
+                        ses amis MM. le docteur Veyne, Paul Chéron (de la Bibliothèque impériale),
+                        son professeur de littérature grecque M. Pantasidès, avec lequel il avait lu
+                        et commenté plusieurs fois dans le texte l’<hi rend="i">Iliade</hi> et l’<hi
+                            rend="i">Odyssée</hi>, son dernier secrétaire, M. Jules Troubat, et sa
+                        fidèle servante qui l’a soigné pendant des années et durant toute sa
+                        maladie, M<hi rend="sup">lle</hi> Marie Chicot. — Les exécuteurs
+                        testamentaires, auxquels il a confié le soin de ses dernières volontés, sont
+                        M. Marc Fabre, son notaire ; son ami et ancien secrétaire, le poète Auguste
+                        Lacaussade, bibliothécaire au ministère de l’instruction publique ; et son
+                        secrétaire, M. Troubat. — M. Sainte-Beuve était né, on le sait déjà, à
+                        Boulogne-sur-Mer, le 23 décembre 1804. — L’autopsie à laquelle ont présidé
+                        MM. les docteurs Veyne et Piogey, au lendemain de la mort, a révélé la
+                        présence dans la vessie de trois pierres dont l’une affecte le volume et la
+                        forme d’un gros œuf de poule ; les deux autres ressemblent par la forme et
+                        leur grosseur à deux châtaignes ordinaires. Une première exploration opérée
+                        par M. le docteur Ricord en 1867, sur la fin de l’hiver, peu de mois après
+                        les atteintes au mal, n’avait rien fait découvrir et avait fait beaucoup
+                        souffrir M. Sainte-Beuve. Lorsque M. le docteur Phillips vint pour le sonder
+                        de nouveau en juillet 1869, il n’était plus temps. Le docteur Veyne n’a
+                        cessé de croire à la présence de la pierre, tout le temps qu’a duré la
+                        maladie. — M. Sainte-Beuve est mort cependant, ignorant la cause de son mal,
+                        la soupçonnant peut-être, l’indiquant même par de certaines comparaisons et
+                        images réelles, basées sur ses sensations douloureuses, dont la médecine et
+                        la chirurgie (qui se croient plus positives) ne tiennent pas assez de compte
+                        dans la bouche d’un littérateur, et disant un jour : <quote>« Vous verrez
+                            qu’on ne saura ce que j’ai que lorsqu’on m’ouvrira… après moi… »</quote>
+                        — Que si la recherche de la vérité a besoin d’excuse, la catastrophe du 13
+                        octobre dernier pourrait en être une suffisante : mais je renverrai ces <hi
+                            rend="i">délicats</hi>, qui me reprocheraient la crudité trop
+                        pathologique de ces détails, en tête du premier livre posthume d’un écrivain
+                        mort peut-être pour n’avoir pas été assez exa miné à fond, au tome V, page
+                        523 de <hi rend="i">Port-Royal</hi>, où M. Sainte-Beuve s’est intéressé aux
+                        causes de la maladie et de la mort de M. Domat, avec lequel il n’était
+                        certes pas aussi sûr d’être en compatibilité de souffrances.</note>. Bien
+                    que la série en ait été prématurément interrompue, — commencée en janvier, elle
+                    s’arrête en juillet, — nous n’avons pu les faire tenir tous dans le XII<hi
+                        rend="sup">e</hi> volume. On se souvient de l’importance et de l’étendue de
+                    ces articles. Deux des principales physionomies, extraites du court passage de
+                    M. Sainte-Beuve au <hi rend="i">Temps, M. de Talleyrand, M<hi rend="sup">me</hi>
+                        Desbordes-Valmore</hi>, vont se retrouver ici. Il a fallu réserver pour le
+                    tome XIII <hi rend="i">le général Jomini</hi> qui fut le dernier travail de
+                    longue haleine publié par M. Sainte-Beuve. — Une lettre de lui à M. Nefftzer sur
+                    le sénatus-consulte, qui parut encore dans <hi rend="i">le Temps</hi> pendant le
+                    mois qui précéda sa mort (n° du 7 septembre), figurera dans un Recueil projeté
+                    de ses Discours au Sénat. L’éditeur se propose bien de faire entrer dans ce
+                    volume (qui n’est pas encore prêt) tous les épisodes marquants des dernières
+                    années de la vie de M. Sainte-Beuve, qui pourront se rattacher désormais à
+                    l’Histoire de la Libre Pensée au XIX<hi rend="sup">e</hi> siècle<note
+                        place="bottom" resp="author"> On y dissipera la légende de ce dîner, dont on
+                        a tant parlé, donné, je crois, chez lui, un vendredi (c’était le 10 avril
+                        1868, puisqu’on tient à savoir exactement le jour), et dont M. Sainte-Beuve
+                        n’avait pas à se défendre. Il en aurait peut-être écrit, lui-même, à un
+                        moment donné, le récit dans un de ses livres. On a gardé de lui des lettres
+                        piquantes à ce sujet. Oh ! il ne cherche pas à s’y justifier d’une action
+                        bien simple, mais il y donne des explications à des amis qui s’étaient émus
+                        de tout le tapage fait, à cette occasion, par de pieux journalistes. Les six
+                        convives de M. Sainte-Beuve, personnages en vue et des plus respectables,
+                        des esprits d’élite en effet (si c’est là ce qui a pu servir à autoriser la
+                        satire et la calomnie de s’être attachées à leur nom dès le lendemain),
+                        aimaient à se retrouver quelquefois chez lui à dîner : c’était comme un
+                        terre-à-terre à une extrémité de Paris, quasiment à la barrière, où le
+                        milieu d’un quartier populaire et sain influe, malgré soi, jusque dans les
+                        habitations bourgeoises ; on s’y sentait bien réellement éloigné de toute
+                        contrainte gênante et de toute étiquette cérémonieuse. On n’y dînait
+                        d’ailleurs qu’à portes closes. Les amis de M. Sainte-Beuve pouvaient y
+                        parler librement et <hi rend="i">sub rosa</hi>, — selon le mot favori qu’il
+                        se plaisait à répéter dans ses lettres d’invitation. <quote>« Rien de ce qui
+                            se dit à table, sous la rose, ne doit transpirer au-dehors. »
+                        </quote>C’était le précepte des Anciens, de tout temps pratiqué dans la
+                        maisonnette de la rue Montparnasse. Le maître de la maison ne se
+                        considérait, disait-il lui-même, que <quote>« comme le maître du
+                            cabaret »</quote>, où l’on avait, il est vrai, cet avantage de plus sur
+                        les autres cabarets, que l’on pouvait être bien sûr que personne n’écoutait
+                        aux portes. Faut-il répéter encore après cela que tout ce qu’on a raconté de
+                        cette réunion intime d’amis dans une certaine presse que l’on peut à bon
+                        droit, cette fois, qualifier de <hi rend="i">petite</hi> (sans tenir compte
+                        du format), est faux et archifaux ? <quote>« … On rougirait, écrivait
+                            M. Sainte-Beuve à un ami peu de jours après (le 28 avril 1868), d’avoir
+                            à se justifier d’avoir reçu dans la plus étroite intimité, au fond d’un
+                            faubourg, sans bruit et sans éclat, six amis auxquels le jour était
+                            indifférent, et dont l’un, le plus considérable, devant quitter Paris,
+                            avait choisi d’abord à tout hasard ce vendredi-là <hi rend="i">(eh ! mon
+                                Dieu ! c’était le vendredi saint, puisqu’il faut le dire)</hi> ; et
+                            à la réflexion, il n’y avait aucun motif (ceux qui devaient être du
+                            dîner étant ce qu’ils sont) de rejeter le jour et de le vouloir
+                            remettre. Mais la badauderie d’abord, qui en a eu vent, a donné l’idée à
+                            la calomnie et à l’invective d’attrouper les gens à scrupules. C’est
+                            peut-être triste, mais pour d’autres que pour moi. »</quote></note>.</p>
+                <p>Mais revenons au tome XII des <hi rend="i">Nouveaux Lundis</hi><note
+                        place="bottom" resp="author"> Nous l’avons complété à l’aide d’autres
+                        articles de M. Sainte-Beuve, empruntés à différents Recueils, en dehors du
+                        cercle même de ses Lundis. Le <hi rend="i">Journal des Savants</hi>, dont il
+                        faisait partie depuis 1867, en fournira son bon contingent pour le XIII<hi
+                            rend="sup">e</hi> volume. M. Sainte-Beuve avait préparé d’avance ce
+                        qu’il fallait faire entrer dans la publication de ses derniers livres. Il
+                        nous faisait voir comment il disposait ces choix et mélanges d’articles,
+                        dans le cas où il ne serait plus là lui-même pour en surveiller l’édition.
+                        Une expression de lui, bien douloureuse à présent, et qui nous revient :
+                            <quote>« il tenait, disait-il, ses bagages prêts »</quote> ; il appelait
+                        encore cela <hi rend="i">faire ses paquets</hi>.</note> Cette entrée de
+                    M. Sainte-Beuve au <hi rend="i">Temps</hi> occasionna plus d’un débat et
+                    produisit plus d’une rupture. La direction du nouveau <hi rend="i">Journal
+                        officiel</hi>, où il avait refusé d’écrire, s’en émut. On vint lui contester
+                    le droit, à lui sénateur, d’écrire dans un journal qui n’avait ni couleur ni
+                    attache gouvernementale. On revendiquait, à l’égard de M. Sainte-Beuve, le
+                    monopole littéraire, dans les régions administratives et officielles de la
+                    presse. On disait d’abord (sans doute parce que <hi rend="i">le Temps</hi>
+                    n’était pas d’une nuance assez foncée pour paraître <hi rend="i">rouge)</hi> que
+                    c’était un journal <hi rend="i">orléaniste</hi>. On avait beau objecter que
+                    M. Louis Blanc y écrivait, et que c’était au moins une feuille d’un radicalisme
+                    impartial, sans parti pris ni passion : <hi rend="i">orléaniste</hi> n’en
+                    restait pas moins l’injure tombée de haut, à la veille du triomphe des anciens
+                    partis qu’elle caractérisait le mieux<note place="bottom" resp="author"><hi
+                            rend="i">. Orléaniste</hi> était encore, à l’heure dont je parle, un de
+                        ces termes vagues à l’usage des esprits politiques qui ne trouvent pas mieux
+                        dans le moment. Toutes les sciences incertaines et dont les principes
+                        peuvent varier selon les circonstances de lieu, de temps, ont ainsi des mots
+                        pour généraliser au besoin, d’une manière indécise, quelque chose
+                        d’indéterminé. On disait que M. Sainte-Beuve était <hi rend="i">passé aux
+                            orléanistes</hi> !</note>. On trouvait ce passage de M. Sainte-Beuve au
+                        <hi rend="i">Temps</hi> incompréhensible, inexplicable (pour me servir des
+                    expressions les plus douces) de la part d’un écrivain dont la plume devait être
+                    et rester avant tout <hi rend="i">inféodée</hi> (c’est presque le mot qui a été
+                    employé) à la littérature officielle de l’Empire. — M. Sainte-Beuve, fort et
+                    convaincu d’un droit selon lui professionnel, et que tous les écrivains
+                    revendiqueraient avec lui, d’écrire dans un journal de son choix, fut tout
+                    étonné de l’avalanche de récriminations et de reproches dont il eut à se garer
+                    le lendemain de l’insertion de son premier article au <hi rend="i">Temps</hi>.
+                    Il n’en persista pas moins dans sa résolution d’écrire désormais dans un journal
+                    modéré et libre de tout joug, où des amitiés éprouvées lui tendaient la main, et
+                    où il savait que les convictions philosophiques, qu’il venait de défendre au
+                    Sénat, trouveraient autour de lui non seulement la tolérance avec un peu
+                    d’indifférence (comme cela aurait pu lui arriver dans d’autres feuilles amies et
+                    libérales), mais aussi une sympathie sûre et de fermes soutiens, des plumes
+                    instruites et sérieuses avec lesquelles il se sentait en parfaite communion
+                    d’idées. MM. Nefftzer et Scherer n’étaient pas pour lui des amis d’hier
+                        seulement<note place="bottom" resp="author"> Il avait fait en 1860 un
+                        article sur M. Scherer <hi rend="i">(Causeries du Lundi</hi>, t. XV). — Je
+                        retrouve la minute d’une lettre de M. Sainte-Beuve à son vieil ami, le poète
+                        romantique Ulric Guttinguer, qui est mort le 21 septembre 1866, âgé de plus
+                        de quatre-vingts ans. Je la publierai ici tout entière, comme
+                        M. Sainte-Beuve l’a laissée, pour ne rien distraire de ce qui y amène une
+                        dernière ligne sur M. Scherer. On y verra aussi qu’il n’y reniait rien de la
+                        sincérité de ses sentiments à aucune époque de sa vie ! <quote>« (Ce 14 mai
+                            1862.) Cher Ulric, vous êtes donc incurable ; vous êtes resté l’homme de
+                            nos belles et jeunes années, de nos ardeurs qui ne vivent plus qu’en
+                            vous et en un autre ami que peut-être vous avez oublié, Victor Pavie
+                            d’Angers, celui-là encore un fidèle, un chapelain resté pieux de notre
+                            chapelle ardente ! Nous, nous avons trop vécu de la vie assujettie et
+                            productive, de la vie prosaïque et mercenaire, et la Poésie, cette
+                            maîtresse jalouse, s’en est enfuie. Vous nous avez vu dans ces deux ou
+                            trois années de véritable ivresse, vous m’avez vu dans ces six mois
+                            célestes de ma vie qui m’ont fait faire les <hi rend="i"
+                                >Consolations</hi> ; vous avez contribué à m’y inspirer par ce
+                            mélange de sentiments tendres, fragiles et chrétiens que vous agitez en
+                            vous et qui sont un charme. Merci donc pour ce cri d’autrefois, dussé-je
+                            vous trouver injuste pour le critique trois fois indulgent, dont la
+                            sévérité habituelle a fléchi à mon égard. Mais vous, vous n’êtes pas un
+                            critique, vous êtes le frère aîné de cette <hi rend="i">jeune École</hi>
+                            à laquelle vous survivez. — Nos cœurs, du moins, s’entendent toujours,
+                            et le mien vous remercie. — <hi rend="sc">Sainte-Beuve.</hi> »</quote> —
+                        Et ici une parenthèse et une note se rapportant au critique dont il vient
+                        d’être question dans la lettre : <quote>« Il s’agissait, dit en renvoi
+                            M. Sainte-Beuve, de M. Edmond Scherer, qui avait écrit dans le journal
+                                <hi rend="i">le Temps</hi> un article sur moi. Ulric Guttinguer en
+                            avait pris occasion d’en faire un, à son tour, dans le Recueil intitulé
+                                <hi rend="i">la Mode nouvelle</hi> (n° du 12 mai
+                        1862). »</quote></note>, et s’il m’était permis de citer un vieux proverbe
+                    qui me revient, dans ces souvenirs d’une vie qui, comme celle de tout grand
+                    travailleur, ne laissait pas d’avoir ses éclaircies de gaieté, je dirais qu’ils
+                    se connaissaient bien, ayant <hi rend="i">mangé plus d’un grain de sel</hi>
+                        ensemble<note resp="author"> Il n’y avait pas bien longtemps encore, quand
+                        il est mort, que M. Sainte-Beuve disait à un ami en face de lui, dans une de
+                        ces conversations familières qui le prenaient parfois après une forte
+                        journée de travail : <quote>« Je ne me serais pas cru libre dans un journal
+                            qui porte un emblème en tête (il montrait le <hi rend="i">Journal
+                                officiel</hi>) ; il faut trop se ranger, quand on marche sous une
+                            bannière ; on a peur de marcher sur le pied de son voisin ; on se gêne
+                            ou l’on gêne ; on n’est plus là pour discuter, mais pour suivre ; on est
+                            enrôlé ; allez donc discuter les affaires de Rome, par exemple, comme on
+                            les sent, dans un journal qui épouse tant là légitimité que cela ; qui
+                            semble voué à la reine Marie-Antoinette ; oh il est sans cesse question
+                            d’elle !… Au <hi rend="i">Temps</hi>, je suis comme quand nous causions
+                            à la table de Magny ; j’y retrouve Nefftzer, Scherer ; nous sommes là
+                            toujours entre amis ; on ne craint pas d’y exprimer tout haut ce que
+                            l’on pense, quand même ce ne serai pas l’opinion du voisin, et on laisse
+                            la parole au voisin qui réplique… »</quote></note>.</p>
+                <p>Et puisque nous sommes en veine de confession et d’une défense qui n’est pas
+                    difficile, il y avait plus d’un an, si l’on veut le savoir, que M. Sainte-Beuve
+                    avait dit à ses amis que s’il était jamais libre, il accepterait la
+                    collaboration du <hi rend="i">Temps</hi>, qui lui avait été déjà offerte. Mais
+                    un traité, à sa sortie du <hi rend="i">Constitutionnel</hi>, l’engageait avec
+                        <hi rend="i">le Moniteur</hi>, et il ne voulait pas rompre avec M. Dalloz,
+                    même quand <hi rend="i">le Moniteur</hi> cesserait d’être <hi rend="i"
+                        >officiel</hi>, — car c’est surtout de l’<hi rend="i">officiel</hi> que M.
+                    Sainte-Beuve avait envie de sortir. — On saura quelle circonstance le fit passer
+                    d’emblée de l’ancien <hi rend="i">Moniteur</hi> au <hi rend="i">Temps</hi>. Mais
+                    de toutes les collaborations qui lui furent offertes dans cet intervalle de fin
+                    d’année où l’on guettait dans la presse la dislocation du <hi rend="i"
+                        >Moniteur</hi> gouvernemental, qui allait rendre libres les écrivains liés
+                    antérieurement par un traité, celle du <hi rend="i">Journal officiel</hi> est la
+                    seule que M. Sainte-Beuve ait bien nettement et positivement refusée. — À défaut
+                    du <hi rend="i">Temps</hi>, il fût allé au <hi rend="i">Journal de Paris</hi>,
+                    qu’il se faisait lire tous les soirs en dilettante et avec une prédilection
+                    marquée. <quote>« Que dit Weiss ? »</quote> était son premier mot quand on lui
+                    apportait les journaux du soir ; et qu’on dise encore aujourd’hui que M. Weiss
+                    était un orléaniste !</p>
+                <p>Il lui fallait un journal ; il ne pouvait s’en passer ; car à son âge, et quand
+                    on est en plein déploiement de talent, on ne se tait que lorsque la mort vous y
+                    force. En vain invoquait-on des raisons matérielles en faveur du <hi rend="i"
+                        >Journal officiel</hi> : il allait s’organiser mieux, disait-on, dans la
+                    suite, et peu à peu ; il fallait lui laisser le temps ; il paraîtrait au moins
+                    mieux imprimé. — M. Sainte-Beuve n’avait d’abord pas le temps d’attendre ; il
+                    n’y a que les débutants qui aient éternellement le loisir de se taire. Et puis
+                    il ne pouvait admettre que le Sénat l’assujettît à telle ou telle feuille : et
+                    c’était bien ainsi, apparemment, que le comprit aussi M. Troplong lui-même,
+                    comme on le verra par la suite de ce volume (<hi rend="i">à la fin des articles
+                        sur</hi> M. de Talleyrand).</p>
+                <p>D’ailleurs le Sénat, qu’on invoquait à cette occasion, aurait bien dégagé depuis
+                    longtemps M. Sainte-Beuve de toute considération à ce sujet, s’il eût eu
+                    seulement à tenir compte de sa position dans la haute Assemblée pour le choix
+                    d’un journal. La situation qu’on lui avait faite lorsqu’il prit la défense de
+                    M. Renan (dans la séance du 29 mars 1867), et, l’année d’après (le 7 mai 1868),
+                    à propos de son discours sur la loi de la presse, prouve bien que le Sénat (si
+                    j’en excepte M. de La Guéronnière) ne s’intéressait que pour les étouffer à ces
+                    questions de livres et de journaux.</p>
+                <p>Depuis son <hi rend="i">esclandre</hi> (je remonte au plus ancien, au premier,
+                    cause et origine de tout le mal), M. Sainte-Beuve ne comptait plus au Sénat que
+                        <hi rend="i">cinq</hi> amis, qui lui donnèrent jusqu’à la fin des marques de
+                    sympathie particulières : M. Blondel, qui vint le voir au lendemain de sa
+                    querelle avec M. de Ségur-d’Aguesseau, au sujet de la nomination de M. Renan au
+                    Collège de France ; — l’aimable baron de Chassiron, mort avant lui, qui ne
+                    s’informait, au milieu de toutes ces querelles et discussions, que de la santé
+                    de M. Sainte-Beuve, qu’elles pouvaient compromettre ; — le général Husson, mort
+                    aussi, qui, retenu à Fontainebleau par la maladie, lui écrivait : <quote>« Ah !
+                        si je pouvais être là, vous ne seriez pas seul ! »</quote> — M. le premier
+                    président de Royer, qui accompagna le cercueil de M. Sainte-Beuve au cimetière,
+                    — et le président du Sénat lui-même, M. Troplong, qui lui rendait dans le
+                    particulier en bienveillance ce que les passions déchaînées l’empêchaient de lui
+                    témoigner à la tribune et en séance. — Je ne parle pas (bien entendu) de ses
+                    deux amis de tous les temps et confrères de l’Académie, M. Lebrun et
+                    M. Mérimée ; M. Sainte-Beuve reçut encore leur dernière visite le jeudi qui
+                    précéda sa mort. — Le prince Napoléon (et qu’il me soit permis de lui en rendre
+                    ici publiquement hommage et témoignage) n’a cessé d’honorer M. Sainte-Beuve
+                    d’une amitié constante et qui ne s’est pas démentie un seul instant : la
+                    dernière fois qu’il vint le voir, c’était à la veille d’un départ pour
+                    Prangins ; il ne voulut pas partir sans lui dire adieu. C’était très peu de
+                    temps avant la mort de M. Sainte-Beuve.</p>
+                <p>Sur la fin de sa vie, ne pouvant plus se rendre au Sénat, M. Sainte-Beuve écrivit
+                    pour la première fois dans <hi rend="i">Le Temps</hi> un article qui avait trait
+                    directement à la politique : ce fut sa lettre à M. Nefftzer sur le
+                    sénatus-consulte, thème du discours qu’il serait allé prononcer si ses forces le
+                    lui avaient encore permis. Il y défendait, dans un post-scriptum significatif,
+                    le programme large et libéral que le cousin de l’Empereur venait de déployer à
+                    cette même tribune du Sénat. C’est ainsi que ce journal d’opposition et réputé
+                    hostile, qui donnait à la fois asile à un républicain proscrit et à un sénateur
+                    de la gauche de l’Empire, entend et pratique le vrai principe de la liberté de
+                    la presse, quand les voix s’élèvent d’en haut, — non plus des régions
+                    officielles, mais des sommités du talent et de la pensée. — M’est-il permis de
+                    parler ainsi de mon maître, et M. Sainte-Beuve eût-il trouvé la même tolérance
+                    s’il se fût agi de discuter un acte du Pouvoir dans la feuille même officielle,
+                    dans le nouveau journal qui a eu le bon goût, au lendemain de sa mort, de
+                    justifier sa répugnance à s’y laisser enrôler ? — Il s’était pourtant expliqué
+                    et prononcé dès longtemps sur son refus d’y entrer ; il n’avait pas même attendu
+                    qu’on lui en fît la proposition, car il écrivait dès le 28 juin 1868 :</p>
+                <quote><p>« … On est en train de faire pour <hi rend="i">Le Moniteur</hi> une grosse
+                        sottise, et on la fera. X… intrigue pour avoir l’affaire ; je n’en ferai mon
+                        compliment à personne. M. R…, bouffi, est inabordable ; et puis <hi rend="i"
+                            >qu’est-ce que ça lui fait</hi>, ainsi qu’à L… ? C’est ainsi que tout
+                        chef d’État qui n’est pas méfiant, vigilant, toujours sur le dos des gens,
+                        est servi ! il ignore ou sait mal. En donnant à tous la liberté de la
+                        presse, le gouvernement s’arrangera pour perdre le seul organe considérable
+                        qu’il ait et où il réunit sous le drapeau des noms honorables et des plumes
+                        estimées. Pour moi, je ne resterai jamais au <hi rend="i">Moniteur</hi> de…
+                        censuré par M. Norbert-Billiart. Ô Sire ! que de sottises on commet en votre
+                        nom ! »</p></quote>
+                <p>Et le 29 août :</p>
+                <quote><p>« Dalloz, en effet, me paraît avoir perdu la partie. On va faire plaisir à
+                        …, à M. …-…, et à M. de …-…, et à quelques autres subalternes qui y
+                        trouveront leur compte : je serais étonné que le gouvernement n’y perdit
+                        pas… Pour moi je sais bien une chose : c’est que mieux au fait que la
+                        plupart, de ces questions de presse et de <hi rend="i">Moniteur</hi> dès
+                        l’origine, personne n’a jamais daigné me demander un avis que j’eusse donné
+                        en homme honnête et de bon sens. Je me considérerai donc comme parfaitement
+                        délié envers la nouvelle administration ; je ne déserterai personne, mais
+                        j’irai où il me plaira : c’est bien le moins. Ce qu’on aura entrepris sans
+                        nous, on le continuera sans nous… »</p></quote>
+                <p>Le 28 octobre 1868, M. Sainte-Beuve écrivait à M. Rouher lui-même, qui lui avait
+                    fait l’honneur de faire faire deux démarches auprès de lui pour l’engager à
+                    écrire au futur journal officiel, dont on n’avait pas encore le titre (on
+                    croyait pouvoir garder celui de <hi rend="i">Moniteur</hi>) :</p>
+                <quote><p>« Monsieur et cher ministre,</p><p>« Je voudrais que vous fussiez tout
+                        d’abord bien persuadé qu’il n’y a de ma part aucune question d’amour-propre
+                        en tout ceci. J’ai fort regretté, je vous l’avoue, de n’avoir pas été à même
+                        de dire mon avis — un avis tout pratique — sur le <hi rend="i">Moniteur</hi>
+                        avant les derniers arrangements. J’ai vu tout ce qui s’y est passé depuis
+                        1852 jusqu’en 1860. C’était une époque difficile, et une bonne information
+                        n’eût pas été, je crois, inutile. Une personne qui eût pu être consultée
+                        encore plus utilement que moi est M. Pelletier qui, sous M. Fould, avait
+                        réellement dirigé, et d’une manière d’autant plus sage que, pour nous
+                        littérateurs, elle était comme insensible. Aujourd’hui les choses sont
+                        faites. Je me suis lié, il y a deux ans, par un traité très avantageux pour
+                        moi, avec M. Dalloz. Je sais ce qu’on peut dire juridiquement sur ce
+                        traité ; mais à mes yeux il compte ; le traité, à son moment, a été un
+                        excellent procédé à mon égard, et il faudrait des circonstances extrêmes
+                        pour dégager ma délicatesse. Je ne me considère réellement pas comme libre.
+                        J’ai dit tout cela à M. Norbert-Billiart dans l’entretien que j’ai eu
+                        l’honneur d’avoir avec lui. Il me serait fort pénible de manquer en quoi que
+                        ce soit à ce que je sens devoir au gouvernement de l’Empereur. Aussi l’état
+                        de ma santé étant ce qu’il est, il ne me sera pas difficile, si l’ancien <hi
+                            rend="i">Moniteur</hi> suivait une ligne qui fût par trop en
+                        contradiction avec ma pensée, de m’abstenir et de rester dans ma chambre.
+                        J’ai bien du regret de ne pouvoir supporter à aucun degré la voiture : sans
+                        quoi j’irais pour avoir l’honneur de vous remercier et pour vous exposer de
+                        vive voix d’une manière plus complète mes raisons et mes
+                        excuses.</p><p>« Veuillez agréer, Monsieur le ministre, l’hommage de mon
+                        respectueux dévouement,</p><p rend="right">« Sainte-Beuve<note
+                            place="bottom" resp="author"> Je trouve encore dans le dossier de M.
+                            Sainte-Beuve un fragment de lettre à M. de Chantelauze : <quote>« (ce 9
+                                novembre 1868.) Je ne resterai pourtant point au nouveau <hi
+                                    rend="i">Moniteur</hi> gouvernemental. Je suis un peu mauvaise
+                                tête, même avec mes amis… »</quote></note>. »</p></quote>
+                <p>Aux approches du 1<hi rend="sup">er</hi> janvier, M. Sainte-Beuve, qui
+                    n’attendait que le signal donné par M. Dalloz, improvisa au pied levé et sur sa
+                    demande un article sur un livre qu’il parcourait depuis deux jours, et où il
+                    avait vu l’élément d’un article <quote>« d’entrée et de début, disait-il ; il
+                        faut être vif et court ; ce sera pour commencer, si Dalloz veut… » Il ne
+                        doutait point que M. Dalloz ne voulût. Il lui envoya l’article qu’on va
+                        relire sur l’<hi rend="i">Enseignement des jeunes filles à la Sorbonne</hi>
+                        et les <hi rend="i">Leçons de poésie</hi> de M. Paul Albert. Il se produisit
+                        alors une difficulté que M. Sainte-Beuve n’avait point prévue, M. Dalloz non
+                        plus peut-être. Cet article courtois de forme (c’est le moins qu’on en
+                        puisse dire) eut le malheur de déplaire auprès de M. Dalloz, qui n’était pas
+                        seul à la direction du <hi rend="i">Moniteur</hi> : on demanda des coupures
+                        à M. Sainte-Beuve, à cause d’une critique de goût et toute littéraire qu’il
+                        contenait à l’adresse de M. l’évêque de Montpellier. M. Sainte-Beuve ne crut
+                        pas pouvoir faire cette concession : « Je ne veux blesser la conscience de
+                        personne, dit-il ; je l’ai toujours évité ; mais ici ce n’est pas même
+                        l’épiderme d’un catholique que j’ai atteint ; ce serait la première fois
+                        depuis quarante ans que je ferais une concession de ce genre. »</quote> Et
+                    il écrivit à M. Dalloz, qui n’était pas tout à fait le maître et qui essayait de
+                    le retenir :</p>
+                <quote><p>« (Ce 30 décembre 1868.) Cher ami, je réfléchis encore, vous parti : quel
+                        que soit l’avis du conseil, la situation est fausse et resterait fausse.
+                        Ainsi <hi rend="i">décidément</hi> je me retire. Au diable les
+                        fanatiques !…</p><p><space rend="tab"> </space>« Tout à vous,</p><p
+                        rend="right">« Sainte-Beuve. »</p></quote>
+                <p>Et le lendemain (31 décembre), il expliquait plus au long les motifs de sa
+                    retraite, dans une nouvelle lettre à M. Dalloz :</p>
+                <quote><p>« (Ce 31 décembre 1868.) Mon cher ami, j’apprends le conflit : il était
+                        imprévu pour moi ; j’ai cru que <hi rend="i">le Moniteur universel</hi>, non
+                            <hi rend="i">officiel</hi>, allait être plus libre et plus vif ; — qu’en
+                        reprenant son titre de <hi rend="i">Gazette nationale de 89</hi> et la
+                        tradition des Encyclopédistes, il ne subirait aucun joug. Je me suis trompé.
+                        Je ne veux pas vous susciter d’ennui. Je retire l’article, je me retire en
+                        même temps. Je me réserve d’expliquer au public ce qui m’importe, comment et
+                        pourquoi, ayant refusé d’être du nouveau <hi rend="i">Moniteur
+                        officiel</hi>, je me retire forcément dès le premier jour du nouveau <hi
+                            rend="i">Moniteur universel</hi>.</p><p>« Rien de cela n’affecte notre
+                        bonne amitié. — </p><p><space rend="tab"> </space>« Tout à vous,</p><p
+                        rend="right">« Sainte-Beuve. »</p></quote>
+                <p>Et M. Sainte-Beuve reprit son article et l’envoya au <hi rend="i">Temps ;</hi> ou
+                    plutôt il fit prier M. Nefftzer de passer chez lui (car il ne pouvait aller
+                    lui-même) pour en entendre la lecture. Ce fut un ami, l’éditeur M. Charpentier,
+                    présent et témoin, dans le cabinet de M. Sainte-Beuve, de tous ces tiraillements
+                    et conflits, qui suspendaient la publication d’un article déjà imprimé et
+                    corrigé, tout prêt à paraître, qui voulut bien se charger d’avertir
+                    M. Nefftzer.</p>
+                <p>M. Sainte-Beuve ne changea rien à son article. Ce fut l’épreuve même du <hi
+                        rend="i">Moniteur</hi> qui servit de <hi rend="i">copie</hi> aux
+                    compositeurs du <hi rend="i">Temps</hi>. Il parut tel quel.</p>
+                <p>C’est alors qu’éclatèrent de grandes colères auxquelles je ne ferai plus
+                    allusion. M. Sainte-Beuve prépara et garda la note suivante en portefeuille.
+                    Elle fait aujourd’hui partie de ses Mémoires, et je considère comme un devoir de
+                    la reproduire ici : il a été trop attaqué dans le moment même pour n’avoir pas
+                    un jour le droit de répondre et de se défendre à haute et intelligible voix,
+                    fût-ce après sa mort :</p>
+                <quote><p>« Depuis quelques jours, des démarches pressantes ont été faites auprès de
+                        M. Sainte-Beuve pour mettre obstacle à l’engagement qu’il vient de prendre
+                        d’envoyer des articles de littérature au journal <hi rend="i">le
+                        Temps</hi>.</p><p>« Ces démarches sont venues à la suite de conversations
+                        avec M. le ministre d’État et sous son inspiration, sous son impulsion plus
+                        ou moins directe. Le ministre, paraît-il, est vivement irrité.</p><p>« Mais
+                        d’abord ce ne pourrait être comme ministre que M. Rouher interviendrait en
+                        pareille matière. Un sénateur non fonctionnaire ne relève d’aucun ministre
+                        et n’a à recevoir ni ordre, ni injonction, ni leçon de sa part. Le Sénat
+                        n’est pas apparemment, comme l’ordre des avocats, soumis à un conseil de
+                        discipline, et nul n’a droit de demander compte à un sénateur de ses
+                        actions, — surtout d’actions aussi étrangères à la politique active. Ce ne
+                        pourrait être qu’à titre officieux et aussi comme directeur suprême d’un
+                        journal officiel que M. Rouher serait admis à introduire des instances, des
+                        représentations ou récriminations auprès d’un ancien rédacteur du <hi
+                            rend="i">Moniteur</hi>.</p><p>« Mais M. Sainte-Beuve ne s’est détaché de
+                        la feuille officielle qu’après avoir vu de près et su d’original toutes les
+                        fautes, les légèretés et les inexpériences qui ont présidé à la dislocation
+                        de l’ancien <hi rend="i">Moniteur</hi> et à l’enfantement du nouveau <hi
+                            rend="i">Journal officiel</hi>, la vérité est que, dans aucun état de
+                        cause, il ne consentirait à rentrer à ce journal tel qu’il est constitué.
+                        Ainsi, dans ces termes, tout est dit entre M. le ministre d’État et lui.
+                        M. Sainte-Beuve a déjà remercié et il remercie encore ; le traité avec
+                        M. Dalloz, qui était sa première raison de refus, n’a été qu’une des mille
+                        et une raisons qu’il garde par-devers lui et qu’il lui a paru plus poli de
+                        ne pas dire.</p><p>« Mais on insiste, on allègue qu’il est étonnant qu’un
+                        sénateur envoie des articles, même purement littéraires, à un journal de
+                        l’opposition, et particulièrement au <hi rend="i"
+                        >Temps</hi>.</p><p>« Là-dessus, M. Sainte-Beuve n’a à donner aucune
+                        explication, si ce n’est qu’on lise et qu’on juge ses articles en eux-mêmes.
+                        Quant au voisinage, il en est seul juge.</p><p>« Les affaires de la presse
+                        et celles de l’esprit ont été tellement conduites dans ces dernières années,
+                        que lorsqu’un écrivain dévoué à l’Empire veut insérer désormais quelque part
+                        un assez long travail littéraire, il ne trouve d’autre Revue que des Revues
+                        d’opposition. Personne n’a eu à demander compte à M. Sainte-Beuve des
+                        articles qu’il a fait récemment insérer dans la <hi rend="i">Revue des Deux
+                            Mondes</hi> : il en sera de même de ses articles au <hi rend="i"
+                            >Temps</hi>.</p><p>« On insiste encore, et l’on dit que si c’était du
+                        moins dans tout autre journal que <hi rend="i">le Temps</hi>, soit <hi
+                            rend="i">les Débats</hi>, soit l’<hi rend="i">Opinion nationale</hi>,
+                        soit <hi rend="i">la Liberté</hi>, etc., etc., cela pourrait passer, mais
+                        que <hi rend="i">le Temps</hi> est d’une nuance plus tranchée et plus
+                        décidée ; que sais-je encore ?</p><p>« M. Sainte-Beuve n’a pas à se
+                        prononcer, article par article, sur les doctrines professées par <hi
+                            rend="i">le Temps</hi>, et il n’a eu à les considérer que dans leur
+                        ensemble ; mais il sait que ce journal, dont il a pour amis les principaux
+                        rédacteurs, est un journal généralement estimé et <hi rend="i"
+                            >très-estimé.</hi> Si M. le ministre d’État prétend le contraire, il en
+                        est bien libre ; mais en cela il se trompe et il pense au rebours de
+                        l’opinion publique. En tout cas, ici comme en beaucoup d’autres choses, il a
+                        son avis, et M. Sainte-Beuve le sien. Ce qui est certain, c’est qu’il a été
+                        permis à M. Sainte-Beuve, dès le premier jour, de défendre sur ce terrain
+                        comme il l’entendait une mesure d’un ministre de l’Empereur en toute liberté
+                        et vivacité, ce qui ne lui aurait guère été possible ailleurs dans les mêmes
+                        termes.</p><p>« En un mot, M. Sainte-Beuve a besoin, pour écrire sur
+                        certains sujets, d’une entière liberté philosophique : il est sûr de la
+                        trouver au <hi rend="i">Temps</hi>.</p><p>« Il ne ressort de tout ce bruit
+                        qu’on a fait et qu’on fera de cette petite affaire qu’un seul point bien
+                        évident et qui a déjà été relevé par la presse de Paris et des
+                        départements : M. Sainte-Beuve quitte l’<hi rend="i">officialité</hi>. Rien
+                        de plus, rien de moins.</p><p>« S’il est en effet <hi rend="i"
+                            >singulier</hi> qu’un sénateur, resté écrivain, croie ne pouvoir mieux
+                        placer des articles littéraires que dans un journal d’opposition, cela n’est
+                        arrivé qu’à la suite de beaucoup d’autres faits également <hi rend="i"
+                            >singuliers</hi> que M. le ministre d’État doit connaître mieux que
+                        personne. Il serait trop pénible d’être amené à devoir les énumérer et en
+                        informer le public, et de se voir forcé, pour sa défense morale, de prendre
+                        à témoin l’opinion, seul juge cependant et bon juge en dernier ressort de ce
+                        qui constitue la ligne de conduite d’un véritable <hi rend="i">homme de
+                            lettres</hi>, fût-il sénateur.</p><p>« M. le ministre d’État, malgré sa
+                        supériorité de talent et d’intelligence, n’est pas obligé, s’étant occupé
+                        toute sa vie d’autre chose, de savoir quel est le caractère et, pour tout
+                        dire, le tempérament d’un véritable homme de lettres. Mais aussi ne
+                        devrait-il pas avoir à s’en mêler et à en connaître. Évidemment l’irritation
+                        de ce ministre au sujet de M. Sainte-Beuve se complique du dépit d’un
+                        directeur de journal désappointé : mais pourquoi aussi un ministre d’État se
+                        fait-il entrepreneur direct de journal ? Ç’a été là une grosse faute
+                        politique. »</p></quote>
+                <p>Pourquoi aussi, dirons-nous pour finir, M. Sainte-Beuve, dont les dispositions
+                    testamentaires interdisaient après lui tout discours sur sa tombe, n’a-t-il pu
+                    se défendre également de celui que M. Rouher s’est cru obligé de prononcer
+                    naguère à son sujet, en sa qualité de président du Sénat, à l’ouverture de la
+                    Chambre (le 3 décembre 1869) ? M. Sainte-Beuve l’aurait certes dégagé de la
+                    politesse, lui qui a voulu mourir sans emphase et en toute simplicité. Mais là
+                    presse a déjà répondu pour nous, et encore une fois elle a pris le parti du
+                    confrère éminent et du penseur, mort fidèle à ses convictions, contre l’homme
+                    d’État à oui il faudra des funérailles pompeuses.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

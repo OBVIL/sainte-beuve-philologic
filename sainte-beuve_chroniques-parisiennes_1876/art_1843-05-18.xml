@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xml:lang="fre" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XI</title>
+                <author key="Sainte-Beuve, Charles-Augustin (1804-1869)"
+                    ref="https://data.bnf.fr/fr/11923412/charles-augustin_sainte-beuve/">Charles
+                    Augustin Sainte-Beuve</author>
+                <editor/>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Romain Jalabert</name>
+                    <resp>Édition TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Anne-Laure Huet</name>
+                    <resp>Structuration XML-TEI</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://obvil.sorbonne-universite.fr/corpus/</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"
+                            ><p>Copyright © 2018 Université Paris-Sorbonne, agissant pour le
+                            Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après
+                            dénommé OBVIL).</p><p>Pas de Modification : l’OBVIL s’engage à améliorer
+                            et à corriger cette ressource électronique, notamment en intégrant
+                            toutes les contributions extérieures. La diffusion de versions modifiées
+                            de cette ressource n’est pas souhaitable.</p><p>Pas d’Utilisation
+                            Commerciale : dans l’intérêt de la communauté scientifique, toute
+                            utilisation commerciale est interdite.</p><p>Attribution : afin de
+                            référencer la source, toute utilisation ou publication dérivée de cette
+                            ressource électroniques comportera le nom de l’OBVIL et surtout
+                            l’adresse Internet de la ressource.</p><p>Cette ressource électronique
+                            protégée par le code de la propriété intellectuelle sur les bases de
+                            données (L341-1) est mise à disposition de la communauté scientifique
+                            internationale par l’OBVIL, selon les termes de la licence Creative
+                            Commons : « Attribution — Pas d’Utilisation Commerciale — Pas de
+                            Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p></licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author>Charles Augustin Sainte-Beuve</author>, <title>Chroniques parisiennes
+                        (1843-1845)</title>, <edition>2e éd.</edition>, <pubPlace>Paris</pubPlace>,
+                        <publisher>C. Lévy</publisher>, <date>1876</date>. </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1843-05-18"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="article" xml:id="art_1843-05-18">
+                <head>XI</head>
+                <dateline>Ce 18 mai 1843.</dateline>
+                <argument>
+                    <p>engouement. — adolphe dumas et alexandre dumas. — encore <hi rend="i"
+                            >lucrèce.</hi> — michelet. — quinet. — les jésuites. — villemain. — du
+                        gallicanisme.</p>
+                </argument>
+                <p><pb n="39" xml:id="p39"/>L'un des traits les plus singuliers et les plus
+                    réguliers de la société de Paris, c’est que tous les quinze jours environ on a
+                    un sujet, un lieu commun de conversation nouveau, grand ou petit, comète ou
+                    révolution, tremblement de terre ou vente de charité, ou question d’Orient, ou
+                        <hi rend="i">Colomba</hi>, ou <hi rend="i">Lucrèce</hi> : on cause partout
+                    de la même chose, l’invention est rare, même pour les sujets de conversation ;
+                    chaque personne qui entre remet sur le tapis l’éternel <hi rend="i">dada.</hi>
+                    On l’épuise, on l’extermine. Bref on finit par en être excédé et par crier <hi
+                        rend="i">grâce</hi>, surtout quand il n’arrive pas de nouveau sujet, de
+                    nouveau tremblement de terre, de nouveau chef-d’œuvre. Quand le même sujet dure
+                    un mois ou trois semaines, oh ! c’est trop. Les nerfs n’y tiennent plus. C'est
+                    un peu ce qui a lieu aujourd’hui pour <hi rend="i">Lucrèce</hi> et pour M.
+                    Ponsard qui <pb n="40" xml:id="p40"/>est devenu le <hi rend="i">lion</hi>
+                    soudain et ardent de ce mois de mai. On se l’arrache, il dîne en ville, n’y
+                    arrive qu’à huit heures du soir, et il s’en tire… M. Ponsard est devenu le mot
+                    d’ordre, le mot de passe, la ressource des tête-à-tète et des cercles. Ainsi on
+                    est dans ce malheureux pays. La mode se fourre partout et gâte tout.</p>
+                <p>La pièce lue soutient son mérite ; ç'a été une preuve de goût de n’y pas mettre
+                    une seule ligne de <hi rend="i">Préface.</hi> Assez de Préfaces comme cela.</p>
+                <p>Au reste, il va, dit-on, retourner dans son pays de Vienne travailler. Sa
+                    deuxième pièce doit être <hi rend="i">Alexis Comnène</hi>, je crois, <hi
+                        rend="i">Les Croisés à Constantinople.</hi> Enfin ces deux civilisations, le
+                    rude moyen âge et le raffiné Bas-Empire.</p>
+                <p>Depuis que la <hi rend="i">Lucrèce</hi> a gagné le gros lot, les tragédies
+                    sortent de terre. Chacun a sa tragédie romaine, grecque, ainsi vont les
+                    flots.</p>
+                <p>La pièce d’Adolphe Dumas (<hi rend="i">Mademoiselle de La Vallière</hi>), jouée à
+                    la Porte Saint-Martin, rentre dans le genre échevelé et dans le drame à orgie.
+                    C'est un pêle-mêle, un carnaval de Venise de tout le siècle de Louis XIV.
+                    Molière touche à Bossuet dans la main en lui disant :</p>
+                <quote><p rend="lmarg1">Ah ! monsieur Bossuet, vous êtes un brave
+                    homme !</p></quote>
+                <p>Cet Adolphe Dumas n’est pas sans feu ni sans talent ; mais pas un grain de goût.
+                    Tout fumée. Il a débuté par une espèce de poëme dantesque : <hi rend="i">la Cité
+                        des hommes.</hi> Une forêt vierge inextricable où l’on aurait mis le feu et
+                    d’où sortiraient toutes sortes de bêtes et de tourbillons donne assez l’idée de
+                    cette lecture à cauchemar. A la première représentation du <hi rend="i">Camp des
+                        Croisés</hi>, il y a <pb n="41" xml:id="p41"/>quelques années, voyant entrer
+                    dans la loge (où il était) Alexandre Dumas, il lui dit brusquement et
+                    familièrement : « Il y aura les deux Dumas, comme il y a eu les deux
+                    Corneille. » Le vrai Dumas trouva cela un peu leste pour commencer ; il sourit
+                    pourtant et causa comme si de rien n’était. Puis un moment après il sortit en
+                    disant <hi rend="i">adieu</hi>, et aussitôt se ravisant il remit la tête dans la
+                    loge, et frappant sur l’épaule de son homonyme : <hi rend="i">Adieu,
+                    Thomas</hi> ! dit-il avec gaieté, et il s’enfuit là-dessus.</p>
+                <p>— Voici encore quelques vétilles sur <hi rend="i">Lucrèce.</hi> Émile Deschamps
+                    dit : « Qu'est-ce que <hi rend="i">Lucrèce</hi> ? C'est la poésie des recueils
+                    sur le théâtre ; » voulant faire entendre que le succès de <hi rend="i"
+                        >Lucrèce</hi> est d’avoir fait connaître à tous sur la scène, en fait de
+                    beautés de style, ce qui auparavant s’imprimait un peu à la sourdine et n’était
+                    lu que des gens du métier. Il y a du vrai, et les gens du monde qui admirent la
+                    poésie à tort et à travers, avertis cette fois, proclament beau ce qu’ils
+                    n’auraient jamais aperçu dans d’humbles volumes silencieux. Mais pourtant, il y
+                    a bien autre chose que la poésie des <hi rend="i">recueils</hi> dans <hi
+                        rend="i">Lucrèce</hi>, il y a de l’intérêt dramatique, de la suite, de
+                    l’unité, et, comme dit Ballanche, la sainte religion de la matrone romaine et
+                        <hi rend="i">l’inviolabilité du foyer domestique</hi> : n’est-ce donc là
+                    rien, n’est-ce pas nouveau ?</p>
+                <p>— Madame Dorval disait l’autre jour à l’auteur assez tranquille et qui a la voix
+                    plus douce que son succès : « Remuez-vous donc, vous avez l’air d’une poule qui
+                    aurait couvé un œuf d’aigle. »</p>
+                <p><pb n="42" xml:id="p42"/>— Mais assez de ces bribes, je passe à l’autre intérêt
+                    réel de la quinzaine, car chaque quinzaine ici a son changement de direction et
+                    son <hi rend="i">unité.</hi> Cette fois c’est l’intérêt religieux, les luttes
+                    théologiques des cours du Collége de France et de la Sorbonne. Attaqués dans le
+                    livre du chanoine de Lyon, <hi rend="i">le Monopole universitaire</hi>, Michelet
+                    et Quinet se sont empressés de relever le gant : au fait, ils ne haïssent pas la
+                    popularité, et cela ravitaille les cours que le bruit. Et puis, chez d’honnêtes
+                    gens, le sentiment de leur dignité blessée et de leurs intentions calomniées les
+                    a mis en avant. Il y a eu quelque essai de tapage de la part des
+                    néo-catholiques, mais en petit nombre et vite comprimés par l’immense majorité.
+                    (Voir <hi rend="i">le Siècle</hi>, les <hi rend="i">Débats</hi> qui font selon
+                    moi trop de polémique là-dessus, mais c’est là le cas ou jamais.) Quinet a
+                    trouvé moyen de passer brusquement des <hi rend="i">Littératures du midi</hi>,
+                    qu’il professe, à Ignace de Loyola. Michelet a amené les jésuites un peu plus
+                    naturellement peut-être. L'abbé Cœur doit, dit-on, répondre dans sa chaire de
+                    Sorbonne et louer Loyola.</p>
+                <p>L'Université laisse faire, arme au bras : M. Villemain, si éclairé, manque de
+                    tout courage et tremble devant le moindre journal. La reine en cour, qui est une
+                    sainte, appuie le clergé et déplore ces discussions.</p>
+                <p>Au fait, et à prendre les choses par l’ensemble, rien de plus inévitable. Ce que
+                    je vais dire est une vue, je crois, qui mériterait d’être développée : je
+                    l’ébauche.</p>
+                <p>Le fait essentiel de la religion en France depuis une douzaine d’années, c’est
+                    l’abolition évidente et complète du <hi rend="i">gallicanisme</hi> : cette
+                    grande religion vraiment <pb n="43" xml:id="p43"/>française n’est plus.
+                    Qu'était-elle ? Autour des trois ou quatre points de <hi rend="i">droit</hi> qui
+                    constituaient la jurisprudence gallicane, il s’était formé, à l’abri des
+                    parlements et de l’ancienne Université, une sorte d’esprit religieux modéré,
+                    assez libre, tout à fait tempéré, dans lequel de beaux génies avaient pu vivre
+                    et qui convenait aux raisons droites et modestes. On était soumis, on était
+                    croyant, et l’on discutait pourtant, on critiquait et on rejetait dans une
+                    certaine mesure. On n’était ni fanatique, ni superstitieux, tout en restant bon
+                    catholique. Vous voyez bien que je retrace un peu un idéal dont on s’approchait
+                    pourtant à ces époques de <hi rend="i">Bossuet</hi>, de <hi rend="i"
+                        >Bourdaloue</hi>, de <hi rend="i">Nicole</hi>, de l’abbé <hi rend="i"
+                        >Fleury</hi>, de <hi rend="i">Massillon.</hi> Les jésuites sages, comme
+                    Bourdaloue, étaient eux-mêmes gagnés par cet esprit, par cet air général qu’on
+                    respirait. La Révolution a brisé ces conditions. L'abbé Frayssinous vient de
+                    mourir le dernier des gallicans et le plus affaibli ; mais il en était encore.
+                    Aujourd’hui, sans parlements, sans Université comme corps distinct et
+                    indépendant, n’ayant que le seul Conseil d’État pour les points d’administration
+                    gallicane, il n’y a plus rien de tel que le gallicanisme et il ne se reformera
+                    jamais. La raison ou la foi vont au delà, l’une à la philosophie du siècle,
+                    l’autre à l’ultramontanisme. Les doctrines de Bonald, de Lamennais, surtout de
+                    Joseph de Maistre, ont prévalu chez les croyants catholiques, chez les jeunes.
+                    Le jésuitisme et le catholicisme en France ne sont plus guère distincts et le
+                    seront de moins en moins.</p>
+                <p>Le gallicanisme, le plus noble fils du catholicisme, est mort avant son père,
+                    lequel dans sa caducité est resté <pb n="44" xml:id="p44"/>opiniâtrément fidèle
+                    à ses principes. Les grandes institutions sont telles, et leur principe
+                    primordial persiste, use bien des biais et reparaît le même jusqu’à
+                    extinction.</p>
+                <p>Un catholique éclairé, qui sortait de France, était tout étonné du catholicisme
+                    superstitieux et un peu idolâtrique d’Anvers, de Fribourg, de Tolède ou de
+                    Rome : désormais il n’y aura plus lieu à cet étonnement.</p>
+                <p>Tout ce qu’il y a de jeune dans le catholicisme en France, tout ce qui est arrivé
+                    là par l’imagination, par les idées absolues, par les systèmes, par la tête
+                    plutôt que par le cœur, par la mode, les disciples des cathédrales et de l’<hi
+                        rend="i">art chrétien</hi>, les convertis du <hi rend="i"
+                        >Saint-Simonisme</hi> enclins à la théocratie, les hommes venus là au sortir
+                    du jacobinisme révolutionnaire ou même sans en sortir (et il y a un noyau dont
+                    le type est Buchez), tout cela forme une milice ardente, violente, ou même
+                    légère, qui parade dans les églises aux Semaines Saintes, qui guerroie dans les
+                    journaux, et qui essaye le tapage aux cours. Il n’y a plus là ombre de la
+                    vieille et saine religion gallicane et de cette modération qui marquait ses
+                    mœurs comme ses idées.</p>
+                <p>Est-ce à dire que de telles factions aient chance de triompher et de prévaloir ?
+                    Oh ! non pas. Ce n’est qu’une petite portion plus brillante que solide, plus
+                    bruyante que capable de rien fonder. Ma pensée est que, s’il suit ce train, le
+                    catholicisme en France vise à la <hi rend="i">secte.</hi></p>
+                <p>Rien ne fait plus de bruit qu’une secte, rien n’est moins au centre d’un pays et
+                    d’un temps.</p>
+                <p>Le jésuitisme gagne en France sans aucun doute. On <pb n="45" xml:id="p45"/>me
+                    donne quelques renseignements que je crois assez exacts. Il y a à l’heure qu’il
+                    est plus de neuf cents jésuites ou affiliés en France, leur méthode est autre
+                    que sous la Restauration ; ils avaient alors trois ou quatre grands centres pour
+                    appeler les regards et planter leur pavillon (<hi rend="i">Saint-Acheul</hi>,
+                    etc., etc.). Les temps sont changés ; ils vont en détail et font entrer l’ennemi
+                    dans la place par petites bandes. Exemple : un jésuite prédicateur est envoyé de
+                    Paris dans un diocèse ; il prêche, il a du succès, on vient à lui pour la
+                    confession. Il s’offre au curé de la paroisse pour le soulager, il fait
+                    bénévolement fonction de vicaire. Puis, au bout de quelque temps, il lui arrive
+                    de Paris une couple d’acolytes. Il fait alors à l’évêque une demande d’habiter
+                    dans le diocèse, d’y dire la messe, d’y confesser : demande accordée. Et la
+                    maison se peuple insensiblement, mais d’un nombre qui n’excède pas <hi rend="i"
+                        >vingt</hi>, afin de ne pas tomber sous la loi qui régit les associations.
+                    Ainsi en bien des lieux ils s’emparent de la prédication et de la confession.
+                    Telle est la tactique actuelle, digne de ces maîtres en savoir-faire.</p>
+                <p>Mais rien de gravement menaçant au fond pour une nation, pour une société qui les
+                    secouera d’un revers de main le jour où ils oseraient oublier qu’ils n’ont
+                    jamais été chez eux en terre de France.</p>
+                <p>Je les trouve bien plus gravement menaçants pour le catholicisme même qu’ils
+                    compromettent en l’identifiant avec eux. Conclusion : le jésuitisme peut encore
+                    gagner beaucoup en France, et le catholicisme pourtant continuer de perdre. Le
+                    gallicanisme en se dissolvant a laissé <pb n="46" xml:id="p46"/>un grand
+                    héritage ; les jésuites peuvent en saisir un vaste lambeau, mais la masse n’en
+                    sera pas moins diminuée, disséminée.</p>
+                <p>Et puis la prochaine génération d’hommes d’État promet peu d’être favorable au
+                    clergé. Guizot patiente, gêné peut-être à cet endroit par sa position même de
+                    protestant et par les ménagements dus à la conscience de la reine. — Mais
+                    viennent Thiers, Rémusat, les autres… Si le clergé remuait alors, il ne
+                    trouverait plus cette espèce de sympathie politique que les hommes
+                    essentiellement conservateurs sont accoutumés à lui accorder.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

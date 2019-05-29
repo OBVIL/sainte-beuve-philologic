@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xml:lang="fre" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Note.]</title>
+                <author key="Sainte-Beuve, Charles-Augustin (1804-1869)"
+                    ref="https://data.bnf.fr/fr/11923412/charles-augustin_sainte-beuve/">Charles
+                    Augustin Sainte-Beuve</author>
+                <editor/>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Romain Jalabert</name>
+                    <resp>Édition TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Anne-Laure Huet</name>
+                    <resp>Structuration XML-TEI</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://obvil.sorbonne-universite.fr/corpus/</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"
+                            ><p>Copyright © 2018 Université Paris-Sorbonne, agissant pour le
+                            Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après
+                            dénommé OBVIL).</p><p>Pas de Modification : l’OBVIL s’engage à améliorer
+                            et à corriger cette ressource électronique, notamment en intégrant
+                            toutes les contributions extérieures. La diffusion de versions modifiées
+                            de cette ressource n’est pas souhaitable.</p><p>Pas d’Utilisation
+                            Commerciale : dans l’intérêt de la communauté scientifique, toute
+                            utilisation commerciale est interdite.</p><p>Attribution : afin de
+                            référencer la source, toute utilisation ou publication dérivée de cette
+                            ressource électroniques comportera le nom de l’OBVIL et surtout
+                            l’adresse Internet de la ressource.</p><p>Cette ressource électronique
+                            protégée par le code de la propriété intellectuelle sur les bases de
+                            données (L341-1) est mise à disposition de la communauté scientifique
+                            internationale par l’OBVIL, selon les termes de la licence Creative
+                            Commons : « Attribution — Pas d’Utilisation Commerciale — Pas de
+                            Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p></licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author>Charles Augustin Sainte-Beuve</author>, <title>Causeries du
+                        lundi</title>, <edition>3e éd. revue et corrigée</edition>,
+                        <pubPlace>Paris</pubPlace>, <publisher>Garnier frères</publisher>,
+                        <date>1859</date>. </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1859-01-01"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="article" xml:id="art_1859-01-01_b">
+                <head>[Note.]</head>
+                <p>Depuis que cet article est écrit, les <hi rend="i">Mémoires de Lauzun</hi> ont eu
+                    une suite d’aventures et ont causé maint désagrément à ceux qui s’en sont
+                    occupés. Publiés en mai 1858 d’une manière trop conforme au manuscrit par
+                    M. Louis Lacour, chez MM. Poulet-Malassis et de Broise, ils ont suscité des
+                    réclamations, des plaintes, un procès. La vertu des grandes dames de cette fin
+                    du <num>xviii<hi rend="sup">e</hi></num> siècle a trouvé, d’une part, de zélés
+                    chevaliers dans la Société des bibliophiles, et surtout dans le président de
+                    cette Société (M. Jérôme Pichon), antiquaire distingué et très vif dans son
+                    culte du passé : d’autre part, le petit-fils d’une des plus compromises parmi
+                    ces anciennes beautés, laquelle avait déjà été nommée en toutes lettres dans
+                    l’édition de 1822, n’a pas estimé qu’il y avait lieu à prescription et n’a pas
+                    cru devoir être de l’avis de Boileau :</p>
+                <quote><l>Mais qui m’assurera qu’en ce long cercle d’ans</l><l>À leurs fameux époux
+                        vos aïeules fidèles</l><l>Aux douceurs des galants furent toujours
+                        rebelles ?</l></quote>
+                <p rend="indent">Il y a eu plainte portée devant la justice comme pour un fait qui
+                        <pb n="308" xml:id="p308"/>n’est pas encore entré dans le vaste domaine de
+                    l’histoire, et, en conséquence, jugement et condamnation (26 janvier 1859).
+                    L’Ancien Régime était plus coulant sur ces choses de mœurs, une fois divulguées,
+                    et, après un premier éclat de colère, il était convenu qu’on fermerait les
+                    yeux ; les éditeurs de Bussy-Rabutin et d’Hamilton auraient eu, sans cela, trop
+                    de comptes à rendre.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

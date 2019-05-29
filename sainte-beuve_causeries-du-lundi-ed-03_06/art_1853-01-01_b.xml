@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xml:lang="fre" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Note.</title>
+                <author key="Sainte-Beuve, Charles-Augustin (1804-1869)"
+                    ref="https://data.bnf.fr/fr/11923412/charles-augustin_sainte-beuve/">Charles
+                    Augustin Sainte-Beuve</author>
+                <editor/>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Romain Jalabert</name>
+                    <resp>Édition TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Anne-Laure Huet</name>
+                    <resp>Structuration XML-TEI</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://obvil.sorbonne-universite.fr/corpus/</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2018 Université Paris-Sorbonne, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures. La diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution — Pas
+                            d’Utilisation Commerciale — Pas de Modification 3.0 France (CC BY-NC-ND
+                            3.0 FR) ».</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author>Charles Augustin Sainte-Beuve</author>, <title>Causeries du
+                        lundi</title>, <edition>3e éd. revue et corrigée</edition>,
+                        <pubPlace>Paris</pubPlace>, <publisher>Garnier frères</publisher>,
+                        <date>1865</date>. </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1853-01-01"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="article" xml:id="art_1853-01-01_b">
+                <head>P.-S.</head>
+                <p>Je m’aperçois, en terminant, que je n’ai point parlé d’une <hi rend="i">Satire
+                        inédite</hi>, attribuée à Boileau, récemment trouvée dans les manuscrits de
+                    Conrart à l’Arsenal avec le nom de <hi rend="i">Despréaux</hi> au bas, et
+                    publiée par un jeune et studieux investigateur, M. L. Passy (<hi rend="i"
+                        >Bibliothèque de l’École des chartes</hi>, 3<hi rend="sup">e</hi> série,
+                    t. III, p. 172) ; mais, après avoir bien examiné ce point, et nonobstant la
+                    spirituelle plaidoirie de M. Passy, il me paraît impossible que cette pièce, qui
+                    est de 1662, c’est-à-dire postérieure aux premières <hi rend="i">Satires</hi>
+                    que Boileau avait déjà composées à cette date, lui appartienne réellement ; elle
+                    est d’un faire tout différent du sien, plate et de la plus mauvaise école. S’il
+                    l’avait faite à dix-huit ans ou à vingt, on n’aurait rien à dire ; mais à
+                    vingt-six ans, et après les <hi rend="i">Satires</hi> I et VI, qui datent de
+                    1660, c’est impossible.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

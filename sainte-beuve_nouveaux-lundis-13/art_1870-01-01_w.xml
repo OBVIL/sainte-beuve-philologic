@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xml:lang="fre" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Une discussion dans les bureaux du Constitutionnel</title>
+                <author key="Sainte-Beuve, Charles-Augustin (1804-1869)"
+                    ref="https://data.bnf.fr/fr/11923412/charles-augustin_sainte-beuve/">Charles
+                    Augustin Sainte-Beuve</author>
+                <editor/>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Romain Jalabert</name>
+                    <resp>Édition TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Anne-Laure Huet</name>
+                    <resp>Structuration XML-TEI</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://obvil.sorbonne-universite.fr/corpus/</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"
+                            ><p>Copyright © 2018 Université Paris-Sorbonne, agissant pour le
+                            Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après
+                            dénommé OBVIL).</p><p>Pas de Modification : l’OBVIL s’engage à améliorer
+                            et à corriger cette ressource électronique, notamment en intégrant
+                            toutes les contributions extérieures. La diffusion de versions modifiées
+                            de cette ressource n’est pas souhaitable.</p><p>Pas d’Utilisation
+                            Commerciale : dans l’intérêt de la communauté scientifique, toute
+                            utilisation commerciale est interdite.</p><p>Attribution : afin de
+                            référencer la source, toute utilisation ou publication dérivée de cette
+                            ressource électroniques comportera le nom de l’OBVIL et surtout
+                            l’adresse Internet de la ressource.</p><p>Cette ressource électronique
+                            protégée par le code de la propriété intellectuelle sur les bases de
+                            données (L341-1) est mise à disposition de la communauté scientifique
+                            internationale par l’OBVIL, selon les termes de la licence Creative
+                            Commons : « Attribution — Pas d’Utilisation Commerciale — Pas de
+                            Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p></licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author>Charles Augustin Sainte-Beuve</author>, <title>Nouveaux
+                    lundis</title>, <edition/>, <pubPlace>Paris</pubPlace>, <publisher>Michel Lévy
+                        frères</publisher>, <date>1878</date>. </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1870-01-01_w"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="article" xml:id="art_1870-01-01_w">
+                <head>Une discussion dans les bureaux du <hi rend="i">Constitutionnel</hi><note
+                        resp="author"><p>Nous croyons devoir entourer ces Appendices, qui
+                            contiennent des fragments importants, mais inachevés, de notes et
+                            commentaires explicatifs, qui nous obligent, à notre grand regret pour
+                            le public, à prendre quelquefois la parole. Nous sentons combien il y va
+                            de toute notre indignité dans des volumes signés du nom de Sainte-Beuve,
+                            mais nous nous efforçons aussi, par le caractère impersonnel de notre
+                            rédaction, de nous faire oublier, en ne mettant en relief que des
+                            souvenirs où la personnalité seule de l’illustre écrivain est en jeu.
+                            Nous ne demandons qu’à rester dans le rôle obscur et d’observateur <hi
+                                rend="i">malgré nous</hi>, qui nous a été fait par huit années de
+                            secrétariat, ne cherchant pas à nous exhausser sur la tombe du maître,
+                            mais ne négligeant rien non plus, cependant, quand l’occasion s’en
+                            présente, de ce qui peut servir à éclairer, par quelque point important
+                            et lumineux, la biographie de celui qui nous fit son éditeur posthume,
+                            son légataire universel, et nous mit en son lieu et place pour la
+                            correction et la publication de ses dernières œuvres. Il nous a semblé
+                            que les détails que nous y ajoutions avaient leur intérêt, et c’est là
+                            notre seule excuse.</p><p>J. T.</p></note></head>
+                <p>M. Sainte-Beuve résista toujours à faire un article sur l’<title>Histoire de
+                        César</title>. Une discussion, qui s’est passée un jour sous nos yeux, au
+                    moment même de l’apparition du livre, et dont les termes me reviennent presque
+                    textuellement, en sera la meilleure preuve. M. Sainte-Beuve allait tous les
+                    dimanches au <title>Constitutionnel</title>, dans l’après-midi, relire les
+                    épreuves de son article sur la mise en pages, avant le tirage définitif : il
+                    s’isolait, pour être plus tranquille, derrière un des grillages des bureaux de
+                    l’administration, qui sont à la porte en entrant, et il lui arriva plus d’une
+                    fois d’être dérangé par un passant qui, oubliant que les employés ne sont pas à
+                    leur bureau le dimanche, venait lui demander un renseignement relatif aux
+                    abonnements ou à la vente au numéro. Il m’emmenait quelquefois avec lui pour lui
+                    aider dans cette dernière révision ou pour collationner une note, quelque
+                    passage important, ajouté dès le matin même, et dont il craignait que la
+                    reproduction ne fût pas exactement conforme au texte. C’était l’un de ses plus
+                    grands soucis. Un dimanche donc, après nous être acquittés tous deux de cette
+                    besogne hebdomadaire, qui nous prenait ordinairement toute la journée, — nous
+                    nous y attelions dès neuf heures du matin, — j’entrai avec lui dans le cabinet
+                    du rédacteur en chef qui était alors M. Paulin Limayrac. Ce jour-là la statuette
+                    de M. Thiers, en habit, qui est de fondation sur la cheminée, et qu’ont
+                    respectée et maintenue toutes les directions, se trouvait retournée. C’était la
+                    punition que lui infligeait l’espiègle direction Limayrac, les jours où
+                    l’orateur de l’opposition, sous l’empire, avait fait des siennes à la Chambre.
+                    Un article de réfutation était de rigueur. La tâche en incombait de droit au
+                    spirituel rédacteur en chef, dont on pouvait deviner l’occupation, en entrant
+                    dans son cabinet, si la statuette de M. Thiers était vue de dos. M. Limayrac
+                    était en train de le tancer d’importance. Il ne quittait la plume que pour le
+                    menacer du doigt. Il lui portait ainsi des arguments, une série de bottes <hi
+                        rend="i">ad hominem.</hi> Mais quand, au contraire, il avait à écrire sur
+                    l’impératrice, il allait s’enfermer, pour s’inspirer, dans un cabinet orné de
+                    l’image de la souveraine, et écrivait, pour ainsi dire, sous la dictée de ses
+                    traits. Se raillant d’ailleurs quoique peu lui-même de ses variations
+                    politiques, toujours aimable et papillonnant, il fit asseoir à notre entrée
+                    M. Sainte-Beuve près de lui, et, lui tapant amicalement et familièrement sur le
+                    genou, il lui dit, comme une chose qui allait de soi : <quote>« Eh bien,
+                        Sainte-Beuve, à quand l’article ? — Quel article ? — Eh ! sur</quote>
+                        César<quote> : est-ce qu’il peut être question d’un autre article en ce
+                        moment ? Je l’ai promis ce matin à Conti : vous le ferez, n’est-ce pas ?
+                        — Mais vous savez bien que non, répondit M. Sainte-Beuve ; je m’en suis déjà
+                        expliqué avec vous. »</quote> — Et comme M. Limayrac n’avait pas l’air de se
+                    le tenir pour dit et d’être convaincu de cette résolution bien arrêtée,
+                    M. Sainte-Beuve, s’animant tout d’un coup, éclata : <quote>« Ah çà, dit-il,
+                        est-ce que vous voulez que je <hi rend="i">me déshonore (je garantis le
+                            mot</hi>) ? ma critique n’a de valeur que parce qu’elle n’est pas œuvre
+                        de complaisance : j’ai pu quelquefois être indulgent pour des jeunes gens
+                        qui débutaient dans les lettres ou la poésie ; mais ici ce n’est pas le cas.
+                        Ma probité littéraire est le seul garant de mon talent. Je ne suis pas libre
+                        de parler de ce livre dans <title>le Constitutionnel</title>, comme je le
+                        voudrais : c’est un livre qui ne vaut que par les documents qu’y ont envoyés
+                        les savants. Si vous voulez me laisser combattre la théorie des <hi rend="i"
+                            >hommes providentiels</hi>, dont l’auteur est entiché ; si vous voulez
+                        me laisser dire que César… »</quote> Et ici M. Sainte-Beuve amena
+                    très-énergiquement le nom du beau roi Nicomède : <quote>« Pourquoi, ajouta-t-il,
+                        ces vices de César sont-ils dissimulés dans ce livre ? Qu’est-ce qu’une
+                        biographie où manquent les principaux traits ? Si vous voulez me laisser
+                        dire tout cela dans <title>le Constitutionnel</title>, je ferai
+                        l’article… »</quote> — <quote>« Allons, allons, dit M. Limayrac, ne vous
+                        fâchez pas »</quote>, et il n’en fut plus question. Mais eu rentrant chez
+                    lui, M. Sainte-Beuve, piqué au jeu, dicta à son secrétaire le début d’article
+                    que nous reproduisons intégralement, et auquel il n’ajouta pas un mot depuis.
+                    J’affirme qu’en ce temps-là M. Sainte-Beuve n’était pas encore sénateur, ce qui
+                    prouve bien que sa nomination ne tenait pas à un article, comme ont pu le croire
+                    certains de ses confrères à l’Académie française, gros bonnets de la
+                    littérature, qui payèrent leur tribut au livre de… <title>César</title> par
+                    avancement d’hoirie, et n’entrèrent au Sénat que de longues années après.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

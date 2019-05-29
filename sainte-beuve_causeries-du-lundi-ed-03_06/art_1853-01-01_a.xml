@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xml:lang="fre" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Note.</title>
+                <author key="Sainte-Beuve, Charles-Augustin (1804-1869)"
+                    ref="https://data.bnf.fr/fr/11923412/charles-augustin_sainte-beuve/">Charles
+                    Augustin Sainte-Beuve</author>
+                <editor/>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Romain Jalabert</name>
+                    <resp>Édition TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Anne-Laure Huet</name>
+                    <resp>Structuration XML-TEI</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://obvil.sorbonne-universite.fr/corpus/</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"
+                            ><p>Copyright © 2018 Université Paris-Sorbonne, agissant pour le
+                            Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après
+                            dénommé OBVIL).</p><p>Pas de Modification : l’OBVIL s’engage à améliorer
+                            et à corriger cette ressource électronique, notamment en intégrant
+                            toutes les contributions extérieures. La diffusion de versions modifiées
+                            de cette ressource n’est pas souhaitable.</p><p>Pas d’Utilisation
+                            Commerciale : dans l’intérêt de la communauté scientifique, toute
+                            utilisation commerciale est interdite.</p><p>Attribution : afin de
+                            référencer la source, toute utilisation ou publication dérivée de cette
+                            ressource électroniques comportera le nom de l’OBVIL et surtout
+                            l’adresse Internet de la ressource.</p><p>Cette ressource électronique
+                            protégée par le code de la propriété intellectuelle sur les bases de
+                            données (L341-1) est mise à disposition de la communauté scientifique
+                            internationale par l’OBVIL, selon les termes de la licence Creative
+                            Commons : « Attribution — Pas d’Utilisation Commerciale — Pas de
+                            Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p></licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author>Charles Augustin Sainte-Beuve</author>, <title>Causeries du
+                        lundi</title>, <edition>3e éd. revue et corrigée</edition>,
+                        <pubPlace>Paris</pubPlace>, <publisher>Garnier frères</publisher>,
+                        <date>1865</date>. </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1853-01-01"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="article" xml:id="art_1853-01-01_a">
+                <head>Note.</head>
+                <p>J’ai pensé qu’il ne serait pas sans intérêt de faire lire en entier deux lettres
+                    de M. Hennin supprimées avec intention par M. Aimé Martin, et qui mettent dans
+                    tout son jour le travers moral de Bernardin de Saint-Pierre, sans toutefois
+                    l’exagérer en rien. Ces lettres, dont je n’ai cité dans l’article précédent que
+                    quelques mots, se rapportent, la première, au refus de la gratification accordée
+                    par M. de Vergennes, et la seconde, au refus de la gratification sur le <hi
+                        rend="i">Mercure</hi>, accordée par M. de Breteuil : ces deux refus de
+                    Bernardin, est-il besoin de le dire ? n’étaient que pour la forme et ne tinrent
+                    pas. Les curieux devront remettre ces lettres à leur place dans la <hi rend="i"
+                        >Correspondance</hi> publiée en 1826.</p>
+                <quote><label rend="center sc">m. hennin à bernardin de saint-pierre.</label><p
+                        rend="right">Versailles, le 3 décembre 1780.</p><p>Il est très vrai,
+                        monsieur et très cher ami, que vous soutîntes un jour chez moi les principes
+                        qui viennent de vous faire commettre une grande imprudence. Je les
+                        combattis, quelqu’un même se joignit à moi ; j’espérai que vous changeriez
+                        de façon de penser, et mon amitié ne se ralentit point pour vous procurer
+                        quelque grâce du roi. La lettre du ministre, qui vous annonçait une
+                        gratification de 300 livres sur les fonds littéraires, ne pouvant partir
+                        jeudi, je me hâtai de vous mander le succès de mes soins. Elle venait d’être
+                        signée hier lorsque le ministre m’a renvoyé votre inconcevable lettre où
+                        vous rejetez ce qui vous est offert de la part du roi. Je vous avouerai même
+                        que je partais pour aller demander à M. le marquis de Castries une pareille
+                        somme annuelle pour vous, une pension sur les fonds de la Marine, avec
+                        l’espérance d’y réussir tôt ou tard. Je ne me plaindrai point, monsieur, du
+                        ton que vous avez pris avec moi, parce que je ne veux pas vous aigrir dans
+                        un moment où vous vous égarez. Assemblez toute la France, et l’on vous dira
+                        que votre dernière lettre à M. le comte de Vergennes est contraire à tous
+                        les devoirs. Vous vous faites illusion, monsieur : le roi ne vous doit rien
+                        pour ce que vous avez fait en Pologne, ni pour vos mémoires, parce que vous
+                        n’avez point agi par son ordre. M. le comte de Vergennes, à qui toutes les
+                        personnes qui l’entourent parlent de vous comme d’un homme qui est
+                        malheureux, et qui cependant a fait preuve de bonne volonté en Pologne et
+                        bien servi à l’île de France, qui d’ailleurs peut être employé utilement,
+                        vous assigne une gratification sur des fonds affectés à son département et
+                        destinés à récompenser des services qui n’y ont qu’un rapport éloigné : vous
+                        appelez ce secours une aumône, vous le rejetez, et vous rudoyez l’ami qui,
+                        après trois ans de soins, est parvenu à décider le ministre en votre faveur.
+                        Il n’y a point <pb n="434" xml:id="p434"/>d’exemple d’une pareille conduite.
+                        Vos mémoires, quelque utiles qu’ils puissent être, ne sont point un titre
+                        pour demander des grâces du roi comme une chose due. Il n’y a point de
+                        semaine où le ministre n’en reçoive de ce genre, etc., etc. (Suit l’énoncé
+                        de quelques principes justes d’administration ; puis M. Hennin
+                        continue :)</p><p>Je n’ai pas pris les ordres de M. le comte de Vergennes
+                        sur votre seconde lettre. Voulez-vous que celle de ce ministre qui vous
+                        annonce la gratification parte ? Je ferai en sorte que M. le comte de
+                        Vergennes veuille bien ne pas se souvenir que vous avez refusé ce qu’il vous
+                        avait accordé par une exception flatteuse. De grâce, monsieur,
+                        consultez-vous avant de décider. Vous m’affligez à un point extrême, vous
+                        affligerez tous vos amis ; vous ne serez pas même exempt de reproches.
+                        Jamais on ne refuse les bienfaits du roi, à moins qu’ils ne soient
+                        humiliants, et celui qui vous est offert est honorable. Je ne sais qui a pu
+                        vous dire que les fonds littéraires n’étaient employés qu’en aumônes. Vous
+                        êtes à cent lieues du vrai dans toute cette affaire. Mon ami, vous vous êtes
+                        trop séquestré du monde ; vous ne connaissez plus ni les hommes ni la marche
+                        des affaires. Comment voulez-vous sortir d’un état qui vous peine si vous
+                        repoussez les mains qui peuvent vous en tirer ? Quand 300 livres ne seraient
+                        rien pour vous, ne savez-vous pas qu’un bienfait en attire d’autres ; que,
+                        si vous vivez plus à l’aise, vous serez plus en état de travailler, de vous
+                        procurer une existence agréable ?</p><p>Je vous prie de me répondre le plus
+                        tôt possible. Vous ne pouvez croire à quel point je désire que vous rentriez
+                        dans votre assiette pour réparer le tort que vous vous seriez fait si vous
+                        n’aviez pas ici quelqu’un qui sait combien le malheur change les idées, et
+                        qui ne se lassera de vous rendre tous les services qui dépendront de lui que
+                        lorsque, absolument, vous lui interdirez cette satisfaction.</p><p>Un
+                        ministre ne peut pas répondre à votre demande d’aller servir un prince
+                        étranger. C’est encore une chose que vous saviez avant que vous vous fussiez
+                        éloigné de la société.</p><p>J’ai l’honneur d’être, avec un attachement
+                        assez inviolable pour tenir encore à bien des épreuves, etc.</p></quote>
+                <p>Et en post-scriptum : <quote>« Les gratifications sur les fonds littéraires sont
+                        annuelles, quoiqu’on ne l’annonce pas. C’est une forme que quelques raisons
+                        empêchent de changer. »</quote></p>
+                <p>La seconde lettre inédite que je donnerai se rapporte à la gratification sur le
+                        <hi rend="i">Mercure</hi> :</p>
+                <quote><p rend="right">« Versailles, le 13 août 1785.</p><p>J’étais à Paris hier,
+                        monsieur et ancien ami, lorsque la lettre que vous m’avez fait l’honneur de
+                        m’écrire le 11 est arrivée ici. Je suis très fâché de ne l’avoir pas reçue
+                        avant de partir, j’aurais été vous gronder de la bonne sorte, comme l’amitié
+                        m’en donne le droit. Vous êtes bon, simple, modeste, et il y a des moments
+                        où vous semblez avoir pris pour modèle votre ami Jean-Jacques, le plus vain
+                        de tous les hommes. Dites-moi, je vous prie, pourquoi vous voulez, dans une
+                        chose établie, intervertir l’ordre reçu, pourquoi vous ne regardez pas une
+                        note de gratification arrêtée par le roi dans la forme ministérielle comme
+                        un titre suffisant, pourquoi vous voulez surcharger le ministre de Paris de
+                        lettres de notifications pour des objets minimes, enfin pourquoi vous vous
+                        choquez de ce qui oblige les autres ? Quand M. le baron de Breteuil, qui
+                        vous a toujours voulu du bien, quoique vous vous soyez éloigné de lui,
+                        aurait imaginé de vous en faire sans que vous lui en demandassiez, sans vous
+                        en prévenir ; quand, en lui parlant <pb n="435" xml:id="p435"/>souvent de
+                        vous, je serais la cause indirecte de ce surcroît de bien-être, peut-il y
+                        avoir rien d’humiliant pour vous à être placé au rang des gens de lettres,
+                        puisque vous avez imprimé ? Vous qui reconnaissez si bien la Providence,
+                        pouvez-vous la méconnaître dans l’aisance qui vous arrive lorsque des
+                        infirmités vous la rendent nécessaire ? En vérité, vous devenez pour moi
+                        inconcevable, et je ne puis m’expliquer votre conduite autrement qu’en
+                        considérant que vous vous êtes longtemps aigri contre l’injustice de ceux
+                        qui auraient pu vous faire du bien, et que le point de votre cerveau où
+                        cette idée est classée est vicié par une humeur caustique qui le dénature au
+                        point de rapprocher le bien du mal, la bienfaisance de l’insulte ; d’où il
+                        résulte que, juste et bon dans tous les autres points de votre vie, dès
+                        qu’on touche cette corde vous devenez soupçonneux et injuste. Fâchez-vous,
+                        si vous le voulez, de ma franchise ; mais, puisque vous me faites votre
+                        confession, je vous dois la vérité comme à un ami de vingt-quatre ans, dont
+                        le bonheur est pour moi une jouissance et auquel je voudrais que personne
+                        n’eût rien à reprocher. Allez, de grâce, chez le caissier du <hi rend="i"
+                            >Mercure</hi>, et dites-lui que, mieux informé, vous acceptez la
+                        gratification, et priez-le de vous la délivrer. Je dîne aujourd’hui à
+                        Saint-Cloud chez le baron de Breteuil, et, s’il est nécessaire de
+                        raccommoder cette affaire, je le ferai.</p><p>Je n’ai absolument pas eu le
+                        temps de répondre à vos dernières lettres ; je m’en occuperai ces jours-ci.
+                        D’ailleurs les circonstances ne m’ont pas mis à portée de voir
+                        M. le maréchal de Castries assez libre pour lui parler de ce qui vous
+                        intéresse. J’ai l’honneur, etc.</p><p/><p><hi rend="i">P.-S.</hi> — J’avais
+                        cru, comme tout le monde, que votre nom de famille était <hi rend="i"
+                            >Bernardin</hi>.</p></quote>
+            </div>
+        </body>
+    </text>
+</TEI>

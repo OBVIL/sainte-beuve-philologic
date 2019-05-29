@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xml:lang="fre" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Essai sur Talleyrand (suite et fin.)</title>
+                <author key="Sainte-Beuve, Charles-Augustin (1804-1869)"
+                    ref="https://data.bnf.fr/fr/11923412/charles-augustin_sainte-beuve/">Charles
+                    Augustin Sainte-Beuve</author>
+                <editor/>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Romain Jalabert</name>
+                    <resp>Édition TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Anne-Laure Huet</name>
+                    <resp>Structuration XML-TEI</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://obvil.sorbonne-universite.fr/corpus/</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"
+                            ><p>Copyright © 2018 Université Paris-Sorbonne, agissant pour le
+                            Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après
+                            dénommé OBVIL).</p><p>Pas de Modification : l’OBVIL s’engage à améliorer
+                            et à corriger cette ressource électronique, notamment en intégrant
+                            toutes les contributions extérieures. La diffusion de versions modifiées
+                            de cette ressource n’est pas souhaitable.</p><p>Pas d’Utilisation
+                            Commerciale : dans l’intérêt de la communauté scientifique, toute
+                            utilisation commerciale est interdite.</p><p>Attribution : afin de
+                            référencer la source, toute utilisation ou publication dérivée de cette
+                            ressource électroniques comportera le nom de l’OBVIL et surtout
+                            l’adresse Internet de la ressource.</p><p>Cette ressource électronique
+                            protégée par le code de la propriété intellectuelle sur les bases de
+                            données (L341-1) est mise à disposition de la communauté scientifique
+                            internationale par l’OBVIL, selon les termes de la licence Creative
+                            Commons : « Attribution — Pas d’Utilisation Commerciale — Pas de
+                            Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p></licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author>Charles Augustin Sainte-Beuve</author>, <title>Nouveaux
+                    lundis</title>, <edition/>, <pubPlace>Paris</pubPlace>, <publisher>Michel Lévy
+                        frères</publisher>, <date>1870</date>. </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1869-03-09"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="article" xml:id="art_1869-03-09">
+                <head>Essai sur Talleyrand (suite et fin.)</head>
+                <head type="sub">Par Sir Henry Lytton Bulwer, ancien ambassadeur <lb/>Traduit de
+                    l’anglais par M. Georges Perrot<note place="bottom" resp="author">La lettre de
+                        M. de Talleyrand, écrite de Londres vers le moment de la mort de Casimir
+                        Perier, qu’on a pu lire dans le précédent article, a été supposée par moi
+                        adressée à M<hi rend="sup">me</hi> de Dino, sa nièce : mais l’autographe que
+                        j’ai eu sous les yeux ne porte en effet aucune suscription, et ce n’est que
+                        par induction et conjecture que j’ai cru pouvoir indiquer la destinataire.
+                        On me fait des objections : M<hi rend="sup">me</hi> de Dino, à cette date,
+                        n’était-elle pas à Londres ? N’est-ce point plutôt à une autre amie
+                        particulière, à une correspondante habituellement résidante à Paris (telle
+                        que la princesse de Vaudemont, par exemple), que la lettre était adressée ?
+                        Je ne suis pas en mesure de discuter ce point ; pour cela les termes de
+                        comparaison me manquent ; le doute d’ailleurs n’offre ici aucun
+                        inconvénient, cette lettre isolée n’ayant d’intérêt que comme échantillon et
+                        comme exemple de la manière familière et simple avec laquelle
+                        M. de Talleyrand traitait la politique dans l’intimité.</note></head>
+                <dateline><docDate when="1869-03-09">Mardi 9 mars 1869</docDate>.</dateline>
+                <p>Les lettres qu’écrivait M. de Talleyrand n’étaient pas toujours aussi courtes et
+                    aussi concises que celles que j’ai citées. Si sobre qu’il fût d’écritures comme
+                    de paroles, il y avait de rares moments où il savait s’expliquer autant qu’il le
+                    fallait, et où il avait presque l’air de s’épancher. La lettre la plus
+                    remarquable en ce sens, de toutes celles que j’ai lues, est une réponse à son
+                    ancien ami, son collaborateur et un peu son complice dans ses traités et marchés
+                    avec les princes allemands, le baron de Gagern. Ce diplomate, dont on a les
+                    Mémoires, a consacré tout un intéressant chapitre à ses relations avec
+                        Talleyrand<note place="bottom" resp="author"><hi rend="i">Ma part dans la
+                            politique</hi> (en allemand), tome VI, le chapitre intitulé <hi rend="i"
+                            >Talleyrand et ses rapports avec les Allemands</hi>.</note> ; il y a
+                    inséré les réponses qu’il reçut de lui dans les dernières années, lorsque de
+                    temps en temps il jugeait à propos de se rappeler à son souvenir. Il l’avait
+                    fait d’une manière plus affectueuse encore et plus vive à l’époque où
+                    M. de Talleyrand avait donné sa démission d’ambassadeur à Londres, et s’était
+                    tout à fait retiré de la vie politique. M. de Talleyrand lui répondit aussi
+                    cette fois avec plus d’étendue que d’ordinaire, et comme à un ancien ami
+                    éloigné, qu’on ne reverra plus et auquel on tient à donner une dernière marque
+                    d’attention et de confiance. Voici une partie de cette lettre, qui peut être
+                    considérée tout à fait comme testamentaire et comme faite pour être montrée de
+                    l’autre côté du Rhin :</p>
+                <quote><p rend="right">« 20 avril 1835.</p><p>« … Votre ancienne amitié vous fait
+                        désirer de savoir quelque chose de ma santé : je vous dirai qu’elle est
+                        aussi bonne que le comporte le nombre de mes années, que je vis dans une
+                        retraite charmante, que j’y vis avec ce que j’ai de plus cher au monde, et
+                        que mon unique occupation est d’y goûter, dans toute sa plénitude, les
+                        douceurs du <hi rend="i">farniente</hi> :</p><quote><l>Lorsque <hi rend="i"
+                                >de tout</hi> on a tâté,</l><l>Tout fait ou du moins tout
+                            tenté,</l><l>Il est bien doux de ne rien faire…</l></quote><p>« Vous ne
+                        connaissez pas Rochecotte, sans quoi vous ne diriez pas : Pourquoi
+                        Rochecotte ? Figurez-vous qu’en ce moment j’ai sous les yeux un véritable
+                        jardin de deux lieues de large et de quatre de long, arrosé par une grande
+                        rivière et entouré de coteaux boisés, où, grâce aux abris du nord, le
+                        printemps se montre trois semaines plus tôt qu’à Paris, et où maintenant
+                        tout est verdure et fleurs. Il y a d’ailleurs une chose qui me fait préférer
+                        Rochecotte à tout autre lieu, c’est que j’y suis non pas seulement avec M<hi
+                            rend="sup">me</hi> de Dino, mais chez elle, ce qui est pour moi une
+                        douceur de plus.</p><p>« Ne croyez pas que, si j’ai quitté les affaires, ce
+                        soit par caprice. Je n’ai quitté les affaires que lorsqu’il n’y en avait
+                        plus. J’avais voulu prévenir la guerre, je croyais que la France liée à
+                        l’Angleterre la rendait impossible ; j’avais voulu, de plus, obtenir pour la
+                        Révolution française du mois de juillet 1830 <hi rend="i">le droit de
+                            bourgeoisie</hi> en Europe, et tranquilliser le monde sur l’esprit de
+                        propagandisme que l’on supposait à notre gouvernement. Tout cela était
+                        accompli : que me restait-il à faire, sinon de ne point attendre qu’avec le
+                            <hi rend="i">solve senescentem</hi> d’Horace, quelqu’un vînt me dire que
+                        j’avais trop tardé ? La difficulté est d’en sortir heureusement et à propos.
+                        Vous devez donc me féliciter d’y avoir réussi, et non pas m’en faire une
+                        sorte de reproche, quelque obligeance qu’il y ait dans les reproches que
+                        vous savez faire.</p><p>« J’ai souvent remercié la fortune de m’avoir donné
+                        un contemporain tel que vous, qui m’avez mieux compris que personne, et qui
+                        avez bien voulu en aider d’autres à me mieux comprendre<note place="bottom"
+                            resp="author">Je crois bien qu’ils s’étaient <hi rend="i">compris</hi>
+                            l’un l’autre et presque à demi-mot. Gagern va tout à l’heure nous le
+                            dire mieux encore et nous rappeler comment s’opérait cette heureuse
+                            intelligence.</note> ; mais je la remercierais davantage encore, si elle
+                        eût rendu nos habitations plus voisines : vous verriez qu’aujourd’hui, comme
+                        au temps que vous rappelez, tout serait de ma part abandon et confiance.
+                        — Pauvre Dalberg ! combien je l’aimais, et combien je l’ai regretté ! Nous
+                        parlerions de lui et de tant de personnes que nous avons connues, et de tant
+                        d’événements auxquels nous avons été mêlés. L’âge où je suis arrivé est
+                        celui où l’on vit principalement dans ses souvenirs. Nous parlerions aussi
+                        des jugements auxquels je dois m’attendre de la part des générations qui
+                        suivront la nôtre. J’avoue que je ne redoute pas ceux de vos compatriotes,
+                        pourvu qu’ils n’oublient point qu’il n’existe en Allemagne aucun individu à
+                        qui j’aie volontairement nui, et qu’il s’y trouve plus d’une tête couronnée
+                        à qui je n’ai pas laissé d’être utile, du moins autant que je l’ai pu. Enfin
+                        nos conversations rouleraient sur vous, sur votre famille, le nombre de vos
+                        enfants, leur établissement, toutes choses auxquelles je prends un intérêt
+                        sincère, et dont je suis réduit à ne vous parler que de très loin, puisque
+                        vous habitez sur les bords du Mein, et moi les bords de la Loire, et que de
+                        plus je suis né en 1754.</p><p>« M<hi rend="sup">me</hi> de Dino, qui,
+                        pendant les quatre ans qu’elle a passés en Angleterre, a complété la
+                        croissance dont son esprit supérieur était susceptible, et qui la place au
+                        premier rang des personnes les plus distinguées, n’oublie que ce qui ne vaut
+                        pas la peine qu’on s’en souvienne : elle est flattée que son souvenir
+                        corresponde à celui qu’elle a toujours gardé de vous, et elle me charge de
+                        vous le dire.</p><p>« Pour moi, mon cher baron, j’ai pour vous les mêmes
+                        sentiments que vous m’avez toujours connus, et je suis pour la vie tout à
+                        vous.</p><p rend="right">« P. DE TALLEYRAND<note place="bottom"
+                            resp="author">À côté et au-dessous de cette lettre vraiment charmante et
+                            quelque peu sentimentale, il n’est pourtant pas hors de propos de placer
+                            le passage du même chapitre de Mémoires, dans lequel Gagern s’efforce de
+                            répondre aux reproches adressés par les Allemands, ses compatriotes, à
+                            l’ancien ministre de Napoléon pour sa soif d’argent et sa vénalité. Ce
+                            sont les circonstances atténuantes, naïvement exposées et déduites :
+                                <quote>« Il dépensait beaucoup ; sa main était libéralement ouverte
+                                pour ses anciens amis ; sa maison princière était peu tenue, et sa
+                                fortune particulière très peu considérable. Par suite, <hi rend="i"
+                                    >il considérait sa haute situation comme une mine d’or</hi>. Ses
+                                complaisances devaient être payées non en tabatières ou en
+                                brillants, suivant la coutume, mais en argent comptant. Qui pourrait
+                                dire les sommes qui ont ainsi coulé vers lui de la part des grandes
+                                puissances ! Il pouvait se faire à lui-même illusion sur ces actes,
+                                en se disant qu’il ne se faisait pas payer la vente du bon droit,
+                                mais seulement des services laissés à sa discrétion. Quant à ce qui
+                                me regarde, il était de ma situation et de mon devoir de, suivre le
+                                torrent ; mais je répète qu’entre lui et moi, directement ou
+                                indirectement, aussi bien pour ce qui regarde les Nassau que pour
+                                les autres princes nombreux que je fis entrer dans la Confédération
+                                du Rhin, il ne s’est jamais agi en aucune façon de marché, de
+                                conditions ou d’offres. Je les taxais moi-même d’après mes
+                                appréciations générales et après avoir consulté le vieux
+                                Sainte-Foix, et je proposais mes estimations dans le Nassau, ou bien
+                                je décidais pour eux, et j’espère encore maintenant avoir droit à
+                                leur reconnaissance pour avoir, en ces conjonctures, agi avec autant
+                                de sagacité que d’économie. Napoléon avait connaissance de cet état
+                                de choses et le souffrait. C’est un fait qu’à Mayence, il demanda à
+                                un prince très haut placé : <hi rend="i">Combien Talleyrand vous
+                                    a-t-il coûté</hi> ? »</quote> — Ne nous lassons jamais de
+                            remettre sous nos yeux les deux faces de la vérité, surtout quand la
+                            plus agréable pourrait faire oublier la plus
+                    essentielle.</note>. »</p></quote>
+                <p>Le baron de Gagern, après avoir inséré cette lettre plus développée que
+                    d’habitude et définitive, ajoute : <quote>« Je compris qu’une pareille
+                        correspondance pouvait avoir pour lui des côtés fatigants, et je ne lui
+                        écrivis plus. »</quote> Cependant il restait à régler d’autres comptes, et
+                    dont M. de Talleyrand devait se préoccuper davantage. Il avait ses
+                    quatre-vingt-quatre ans sonnés ; il voulut honorer publiquement sa fin et, avant
+                    le tomber du rideau, ménager à la pièce une dernière scène. Un de ses anciens
+                    collaborateurs diplomatiques et qui avait servi sous lui, un Allemand de plus de
+                    mérite que de montre, Reinhard, vint à mourir. Il était membre de l’Académie des
+                    sciences morales et politiques : M. de Talleyrand se dit que c’était pour lui
+                    l’occasion toute naturelle d’un dernier acte public, et, sous couleur de payer
+                    une dette d’amitié, il se disposa à faire ses adieux au monde. On apprit donc un
+                    matin, non sans quelque surprise, qu’empruntant pour cette fois son rôle au
+                    brillant secrétaire perpétuel, M. Mignet, il désirait prononcer en personne
+                    l’Éloge du comte Reinhard. De là cette séance académique qui fut son dernier
+                    succès et qui couronna sa carrière.</p>
+                <p>Remarquez que le sujet était lui-même choisi avec tact et avec goût : rien
+                    d’éclatant, rien qui promît trop ; l’orateur pouvait être aisément supérieur à
+                    son sujet. Et puis, n’oublions pas que c’est à l’Académie des sciences morales
+                    et politiques que M. de Talleyrand, à son retour en Europe et rentrant en scène,
+                    avait voulu débuter en l’an V par des mémoires fort appréciés : c’est par cette
+                    même Académie que, quarante ans après, il voulait finir. Il y avait de la
+                    modestie dans ce cadre, et aussi de l’habileté. Il savait que, si la politique
+                    est ingrate, les lettres de leur nature sont reconnaissantes.</p>
+                <p>C’est le samedi 3 mars 1838 que, nonobstant un état de santé des plus précaires,
+                    et sans tenir compte des observations de son médecin, il vint lire cet Éloge de
+                    Reinhard dans une séance dite ordinaire, mais qui fut extraordinaire en effet.
+                    Les étrangers sont admis aux séances de cette Académie, et cette fois il y avait
+                    autant de monde que la salle en pouvait tenir ; pas de femmes, mais des
+                    personnages d’élite, principalement politiques ; M. Pasquier, le duc de Noailles
+                    et autres y assistaient. On remarqua fort un incident : M. de Talleyrand et le
+                    duc de Bassano, qui ne s’étaient pas vus depuis 1814 et qui ne s’aimaient
+                        guère<note place="bottom" resp="author">Sur la fin de l’Empire, ils étaient
+                        à couteaux tirés. M. de Talleyrand lardait de ses épigrammes le duc de
+                        Bassano. On citait de lui, dès 1809, ce mot qui dispense de tous les
+                        autres : « Je ne connais pas de plus grande bête au monde que M. Maret, si
+                        ce n’est le duc de Bassano. »</note>, se rencontrèrent dans l’escalier : ils
+                    se donnèrent la main. Le bureau de l’Académie se composait de MM. Droz,
+                    président, Dupin, vice-président, et Mignet, secrétaire perpétuel. Quand
+                    l’huissier annonça « le prince » (car il était prince, même à l’Académie), ce
+                    fut une grande attente. M. Mignet alla à sa rencontre dans la pièce qui
+                    précédait celle des séances. M. de Talleyrand n’avait pu monter à pied
+                    l’escalier : il avait été porté par deux domestiques en livrée. Quand il fit son
+                    entrée dans la salle, appuyé sur le bras de M. Mignet et sur sa béquille, tous
+                    les assistants étaient debout. Après la lecture du procès-verbal, le président
+                    M. Droz demanda au prince s’il n’était pas fatigué, et s’il ne voulait pas
+                    prendre le temps de se reposer avant de commencer sa lecture. M. de Talleyrand,
+                    d’une voix grave (car il l’avait très forte et à remplir la salle), répondit
+                    qu’il aimait mieux commencer aussitôt. Il lut alors un discours composé avec
+                    goût, simple et court, d’un juste à-propos. Aucun mot n’en était perdu. Le
+                    lecteur fut fréquemment interrompu par les applaudissements : ils éclatèrent
+                    surtout au portrait que M. de Talleyrand traça d’un parfait ministre des
+                    affaires étrangères :</p>
+                <quote><p>« La réunion, disait-il, des qualités qui lui sont nécessaires est rare.
+                        Il faut, en effet, qu’un ministre des affaires étrangères soit doué d’une
+                        sorte d’instinct qui, l’avertissant promptement, l’empêche, avant toute
+                        discussion, de jamais se compromettre. Il lui faut la faculté de se montrer
+                        ouvert en restant impénétrable ; d’être réservé avec les formes de
+                        l’abandon, d’être habile jusque dans le choix de ses distractions ; il faut
+                        que sa conversation soit simple, variée, inattendue, toujours naturelle et
+                        parfois naïve ; en un mot, il ne doit pas cesser un moment, dans les
+                        vingt-quatre heures, d’être ministre des affaires
+                        étrangères.</p><p>« Cependant toutes ces qualités, quelque rares qu’elles
+                        soient, pourraient n’être pas suffisantes, si la bonne foi ne leur donnait
+                        une garantie dont elles ont presque toujours besoin. Je dois le rappeler ici
+                        pour détruire un préjugé assez généralement répandu : non, la diplomatie
+                        n’est point une science de ruse et de duplicité. Si la bonne foi est
+                        nécessaire quelque part, c’est surtout dans les transactions politiques, car
+                        c’est elle qui les rend solides et durables. On a voulu confondre la réserve
+                        avec la ruse. La bonne foi n’autorise jamais la ruse, mais elle admet la
+                        réserve ; et la réserve a cela de particulier, c’est qu’elle ajoute à la
+                        confiance.</p><p>« Dominé par l’honneur et l’intérêt du prince, par l’amour
+                        de la liberté fondée sur l’ordre et sur les droits de tous, un ministre des
+                        affaires étrangères, quand il sait l’être, se trouve ainsi placé dans la
+                        plus belle situation à laquelle un esprit élevé puisse
+                    prétendre… »</p></quote>
+                <p>L’idéal est magnifique, et à la façon dont il en parlait, on était tenté de
+                    croire qu’il l’avait autrefois rempli de tout point dans la pratique. Ce qu’il y
+                    avait d’admirable surtout, c’était cette recommandation si formelle de la <hi
+                        rend="i">bonne foi</hi> dans la bouche de celui qui passait pour avoir dit :
+                    « La parole a été donnée à l’homme pour déguiser sa pensée. » On remarqua qu’il
+                    accentua très fort ce mot de <hi rend="i">bonne foi</hi>.</p>
+                <p>Je ne voudrais point paraître faire une mauvaise plaisanterie, mais cet Éloge du
+                    comte Reinhard m’a tout naturellement rappelé le célèbre roman de <hi rend="i"
+                        >Renart</hi>, cette épopée satirique du moyen âge, — cette Bible profane du
+                    moyen âge, comme Goethe l’a baptisée, — dans laquelle l’hypocrite et malin
+                    Renart joue tant de tours au lion et à tous les animaux, se déguise sous toutes
+                    les formes, en clerc, en prêcheur, en confesseur, et, après avoir mis dedans
+                    tout son monde, finit par être proclamé roi et couronné. Cette séance de la plus
+                    morale et de la plus honnête des Académies, consacrant de son approbation, de
+                    son suffrage unanime, le moins scrupuleux des hommes d’État, à la considérer
+                    sous un certain jour, ne me paraît autre qu’une scène du roman de <hi rend="i"
+                        >Renart</hi> au dix-neuvième siècle. Veuillez en effet vous souvenir,
+                    récapitulez en idée la vie passée de Talleyrand, depuis son début sous Calonne,
+                    ou, si vous aimez mieux, depuis sa messe à la Fédération, ou encore depuis
+                    certain traité fructueux entamé avec le Portugal sous le Directoire, premier
+                    point de départ de sa nouvelle et soudaine opulence, et voyez où tout cela
+                    aboutit, à quels honneurs, à quels profonds témoignages de respect, et de la
+                    part des hommes les plus purs et les plus autorisés, les maîtres jurés en
+                    matière de moralité sociale. Il fallait voir comme avec lui, en cette séance
+                    d’adieux attendrissante, la vertueuse solennité de M. Droz était aux petits
+                    soins ; comme la dignité et la candeur de M. Mignet prenait garde de peur que le
+                    prince ne fît un faux pas. Ah ! ce jour-là l’on vit bien ce qu’est la puissance
+                    de l’esprit dans la société française, surtout quand il est relevé par la
+                    naissance, et, faut-il le dire ? quand il est orné de tous les vices.</p>
+                <p>Lorsque la lecture fut terminée (et ce fut là toute la séance, une petite
+                    demi-heure en tout), l’enthousiasme n’eut pas de bornes ; le prince eut à
+                    passer, au retour, entre une double haie de fronts qui s’inclinaient avec un
+                    redoublement de révérence ; chacun en sortant exprimait son admiration à sa
+                    manière, et Cousin, selon sa coutume, plus haut que personne ; il s’écriait en
+                    gesticulant : <quote>« C’est du Voltaire ! — C’est du meilleur
+                        Voltaire. »</quote></p>
+                <p>Non, ce n’était pas tout à fait du Voltaire : cet Éloge de Reinhard, c’était bien
+                    pour Talleyrand jusqu’à un certain point sa représentation d’<hi rend="i"
+                        >Irène</hi>, mais une représentation concertée et arrangée. Non, ce n’était
+                    pas du Voltaire, parce que Voltaire était sincère, passionné, possédé jusqu’à
+                    son dernier soupir du désir de changer, d’améliorer, de perfectionner les choses
+                    autour de lui ; parce qu’il avait le prosélytisme du bon sens ; parce que,
+                    jusqu’à sa dernière heure, et tant que son intelligence fut présente, il
+                    repoussait avec horreur ce qui lui semblait faux et mensonger ; parce que, dans
+                    sa noble fièvre perpétuelle, il était de ceux qui ont droit de dire
+                    d’eux-mêmes : <quote><hi rend="i">Est deus in nobis</hi></quote> ; parce que,
+                    tant qu’un souffle de vie l’anima, il eut en lui ce que j’appelle le bon démon,
+                    l’indignation et l’ardeur. Apôtre de la raison jusqu’au bout, on peut dire que
+                    Voltaire est mort en combattant. La fin de sa vie n’a pas ressemblé à une partie
+                    de whist où l’on gagne en calculant<note resp="author">Ce passage sur Voltaire a
+                        piqué au vif les ennemis ordinaires du grand homme, et a provoqué
+                        M. Louis Veuillot à écrire tout un <hi rend="i">premier-Paris</hi> de <hi
+                            rend="i">l’Univers</hi> sur mes articles. C’est l’éternel honneur de
+                        Voltaire qu’on ne puisse le louer sans amener aussitôt les représailles de
+                        pareils adversaires. Quant à M. Veuillot, j’ai trop de fois éprouvé
+                        l’ignominie de sa veine, et son absence complète de souci de la vérité à mon
+                        égard, pour lui répondre autrement que par cette mention. On ne réfute pas
+                        un écrivain aussi voué, à l’avance, au mépris de l’avenir. (<hi rend="i"
+                            >Note inédite trouvée dans les papiers de
+                    M. Sainte-Beuve.</hi>)</note>.</p>
+                <p>Mais la leçon, s’il en est une à ces comédies du monde où ne manquent jamais ni
+                    les Aristes ni les Philintes, quelle était-elle donc ? Chateaubriand, une heure
+                    après, entendant le récit de cette scène, n’aurait-il pas eu le droit de dire :
+                    « C’est à dégoûter de l’honneur » ; et un misanthrope : « C’est à dégoûter de la
+                    vertu ? »</p>
+                <p>Absous, quoi qu’il en soit, amnistié et applaudi des savants et des sages,
+                    restait pour M. de Talleyrand un autre point délicat à régler, l’article de la
+                    mort. Elle était moins simple pour lui que pour un autre, à cause de son
+                    caractère d’ancien prêtre, d’évêque marié. On y pensait fort et l’on en était
+                    fort préoccupé autour de lui : il s’en préoccupait lui-même depuis quelques
+                    années. Ce n’est pas que ses sentiments sur le fond des choses eussent le moins
+                    du monde changé. Il disait un jour à son médecin : <quote>« Je n’ai qu’une peur,
+                        c’est celle des inconvenances ; je ne crains pour moi-même qu’un scandale
+                        pareil à celui qui est arrivé à la mort du duc de Liancourt. »</quote> On
+                    remarquait que son front, si impassible, se rembrunissait toutes les fois qu’il
+                    était question dans les journaux d’un refus de sépulture pour un prêtre non
+                    réconcilié. Lorsque mourut la princesse, sa femme, qui depuis 1815 n’habitait
+                    plus avec lui, il prit soin que l’inscription funéraire n’indiquât que le plus
+                    légèrement possible le lien qui les avait unis, un lien purement <hi rend="i"
+                        >civil</hi>. Il lui échappa de dire en plus d’une occasion : <quote>« Je
+                        sens que je devrais me mettre mieux avec l’Église. »</quote> On remarquait
+                    encore qu’il revenait plus volontiers sur ses souvenirs de première jeunesse et
+                    sur ses années de séminaire ; il ne craignait pas de les rappeler. Dans ce
+                    dernier discours prononcé à l’Académie, il avait comme pris plaisir à y faire
+                    allusion et à célébrer l’alliance étroite de la diplomatie et de la théologie,
+                    sous prétexte que le protestant Reinhard avait lui-même passé par le
+                    séminaire.</p>
+                <p>Il y avait déjà quelque temps, mais à une époque qui n’était pas très éloignée,
+                    la duchesse de Dino, étant tombée malade à la campagne, avait demandé à recevoir
+                    les sacrements. Était-ce une leçon indirecte, un avertissement qu’elle voulait
+                    lui donner ? Ce qu’il y a de certain, c’est que, la croyant plus mal,
+                    M. de Talleyrand était accouru, et il avait paru étonné de la trouver
+                    passablement : <quote>« Que voulez-vous, dit-elle, c’est d’un bon effet pour les
+                        gens. »</quote>  M. de Talleyrand, après un moment de réflexion, reprit :
+                        <quote>« Il est vrai qu’il n’y a pas de sentiment moins aristocratique que
+                            l’incrédulité<note place="bottom" resp="author">Et n’est-ce pas ainsi
+                            que Rivarol, qui se piquait d’aristocratie et de bonne compagnie,
+                            disait : « L’impiété est la plus grande des indiscrétions ? » — Ce mot
+                            de Talleyrand nous explique jusqu’à un certain point la mode religieuse,
+                            dont est comme saisie notre époque. Dans ce prétendu pays démocratique,
+                            chacun tâchant de se faire passer pour noble et d’être un homme <hi
+                                rend="i">comme il faut</hi>, fait mine aussi d’être religieux. L’un
+                            mène à l’autre.</note>. »</quote></p>
+                <p>La duchesse avait donné à sa fille, pour lui enseigner la religion, un jeune
+                    abbé, homme d’esprit et dont la réputation commençait à s’étendre.
+                    M. de Talleyrand l’ayant un jour invité à dîner, l’abbé s’excusa en disant qu’il
+                    n’était pas homme du monde. Sur quoi M. de Talleyrand dit sèchement à M<hi
+                        rend="sup">me</hi> de Dino : <quote>« Cet homme ne sait pas son métier<note
+                            place="bottom" resp="author">J’emprunte ceci aux Mémoires du baron de
+                            Gagern, qui le tenait de M<hi rend="sup">me</hi> de Dino. Il nomme
+                            l’abbé Dupanloup.</note>. »</quote> On comprit alors, on devina ce qu’il
+                    désirait. Il vit l’abbé et s’entretint avec lui. Il y eut consultation sans
+                    doute sur les démarches à faire pour se réconcilier avec l’Église. On exigeait
+                    de lui un écrit ; les premiers essais de sa façon qu’on envoya à Rome ne furent
+                    pas agréés : il fallait une simple soumission. M. de Talleyrand, pressé de
+                    nouveau par ses nièces, en vint à dire qu’il ne savait comment rédiger la
+                    chose ; que l’on essayât d’une formule, et qu’il verrait : — ce qu’on s’empressa
+                    de faire. Le brouillon revu par lui fut trouvé bon à Rome ; mais, quand il en
+                    revint, M. de Talleyrand le garda dans son secrétaire, décidé à ne le signer
+                    qu’au dernier moment.</p>
+                <p>Depuis la fameuse séance académique, deux mois et demi s’étaient à peine écoulés.
+                    Un anthrax à la région lombaire et l’opération qui s’ensuivit déterminèrent la
+                    crise finale. Dès le mardi 15 mai (1838), M. de Talleyrand était dans un état
+                    désespéré. À cette nouvelle, la famille, tous les amis, tous les curieux du
+                    monde accoururent à l’hôtel de la rue Saint-Florentin, et ils remplissaient le
+                    salon voisin de la chambre du malade. C’était un spectacle des plus singuliers,
+                    et quand je dis spectacle, je dis le vrai mot, car à l’instar des rois de
+                    France, M. de Talleyrand mourut, on peut le dire, en public. Pendant toute la
+                    journée du mercredi, l’effort de ses proches fut pour hâter sa détermination et
+                    l’exhorter à ses derniers devoirs. Il avait sa pensée, mais il attendait
+                    toujours. Il est évident qu’il ne voulait pas s’exposer, dans le cas où il eût
+                    survécu, ne fût-ce que de peu, à entendre les commentaires du public et à
+                    assister à son propre jugement. Il se conduisait ici comme il avait coutume de
+                    faire avec les puissances qu’il quittait : il ne les abandonnait qu’au dernier
+                    moment, et quand il estimait qu’il n’y avait plus chance de retour. Aux appels
+                    fréquents qu’on lui faisait, il répondait : <quote>« Pas encore ! »</quote>
+                    Cependant le temps pressait, et l’on craignait qu’il n’attendît trop et qu’il ne
+                    fût prévenu par la perte de connaissance. La famille et les amis étaient dans
+                    une anxiété extrême. M. Royer-Collard, l’un des assistants, m’a raconté à
+                    moi-même comment les choses se passèrent. Lorsqu’on crut qu’il n’y avait plus à
+                    différer, la petite-nièce du mourant, celle dont il parlait avec tant de
+                    prédilection dans une de ses lettres, et qui était « l’idole de sa vieillesse »,
+                    s’approcha de l’abbé Dupanloup présent, lui demanda sa bénédiction, et forte de
+                    ce secours, prenant (comme on dit) son courage à deux mains, elle entra dans la
+                    chambre du malade. Elle en sortit, ayant obtenu ce qu’elle seule avait pu lui
+                    arracher. M. de Talleyrand avait enfin fixé son heure pour accomplir les actes
+                    religieux et signer sa rétractation. C’était le matin du jour même où il mourut
+                    (jeudi 17 mai 1838). M<hi rend="sup">me</hi> de Dino présidait à tout. La
+                    déclaration, au moment de signer, fut lue à haute voix devant lui, et quand on
+                    lui demanda quelle date il désirait y attacher, il répondit : <quote>« La date
+                        de mon discours à l’Académie. »</quote> — Ces deux démarches préméditées,
+                    celle de ses adieux au public et celle de son raccommodement avec l’Église,
+                    étaient liées dans son esprit.</p>
+                <p>Sir Henry Bulwer a raconté, d’après un témoin oculaire, la visite que lui firent
+                    le roi Louis-Philippe et Madame Adélaïde, dans cette même matinée du jour de sa
+                    mort. M. de Talleyrand, qu’on avait dû réveiller exprès d’un sommeil
+                    léthargique, était assis, au bord du lit, car l’incision faite à ses reins et
+                    qui descendait jusqu’à la hanche ne lui permettait pas d’être couché, et il
+                    passa les dernières quarante-huit heures dans cette posture, penché en avant,
+                    appuyé sur deux valets qui se relayaient toutes les deux heures. Il reçut la
+                    visite royale en homme que la représentation n’abandonne pas un instant. S’étant
+                    aperçu qu’il y avait là trois ou quatre personnes qui n’avaient point été
+                    présentées, deux médecins, son secrétaire et son principal valet de chambre, il
+                    les nomma selon l’étiquette usitée en pareil cas avec les personnes royales. Le
+                    grand chambellan en lui survivait jusqu’à la fin. Tout cela se passait dans la
+                    matinée.</p>
+                <p>Les personnes de la famille étaient seules admises dans la chambre, mais le salon
+                    voisin ne désemplissait pas :</p>
+                <quote><p>« Il y avait là l’élite de la société de Paris. D’un côté, des hommes
+                        politiques vieux et jeunes, des hommes d’État aux cheveux gris, se
+                        pressaient autour du foyer et causaient avec animation ; de l’autre, on
+                        remarquait un groupe de jeunes gens et de jeunes dames, dont les œillades et
+                        les gracieux murmures échangés à voix basse formaient un triste contraste
+                        avec les gémissements suprêmes du mourant. »</p></quote>
+                <p>La bibliothèque, dont la porte donnait dans la chambre mortuaire, était remplie
+                    également des gens de la maison et de domestiques aux aguets : de temps en temps
+                    la portière s’entrouvrait, une tête s’avançait à la découverte, et l’on aurait
+                    pu entendre chuchoter ces mots : « Voyons, a-t-il signé ? est-il mort ? »
+                    L’agonie commença à midi, et il était mort à quatre heures moins un quart. À
+                    peine eut-il fermé les yeux (et j’emprunte à cet endroit le récit du témoin cité
+                    par sir Henry Bulwer) que la scène changea brusquement :</p>
+                <quote><p>« On aurait pu croire qu’une volée de corneilles venait subitement de
+                        prendre son essor, si grande fut la précipitation avec laquelle chacun
+                        quitta l’hôtel, dans l’espoir d’être le premier à répandre la nouvelle au
+                        sein de la coterie ou du cercle particulier dont <hi rend="i">il</hi> ou <hi
+                            rend="i">elle</hi> était l’oracle. Avant la tombée de la nuit, cette
+                        chambre, plus qu’encombrée pendant toute la journée, avait été abandonnée
+                        aux serviteurs de la tombe, et, lorsque j’y entrai le soir, je trouvai ce
+                        même fauteuil, d’où le prince avait si souvent lancé en ma présence une
+                        plaisanterie courtoise ou une piquante épigramme, occupé par un prêtre loué
+                        pour la circonstance et marmottant des prières pour le repos de l’âme qui
+                        venait de s’envoler. »</p></quote>
+                <p>Les propos de chacun en sortant étaient curieux à noter. Les légitimistes
+                    disaient : « Il est mort en bon gentilhomme. » Une dame de la vieille cour eut
+                    le meilleur mot : « Enfin il est mort en homme qui sait vivre. » Un plus osé,
+                    M. de Blancm…, disait : <quote>« Après avoir roué tout le monde, il a voulu
+                        finir par rouer le bon Dieu<note place="bottom" resp="author">On a pour
+                            guide très sûr et sans parti pris, dans le récit de cette mort de
+                            Talleyrand, un Anglais, Thomas Raikes, dont le <hi rend="i">Journal</hi>
+                            a été publié à Londres (4 volumes, 1857). Thomas Raikes, honnête
+                            gentleman, fils d’un riche marchand de la Cité, et qui se trouvait très
+                            flatté de vivre dans ce grand monde anglais et français sur le pied de
+                            comparse ou figurant, a noté, comme l’aurait fait un Dangeau, avec une
+                            minutieuse attention qui tenait autant de la badauderie que de
+                            l’exactitude, tout ce qui peut se rapporter à M. de Talleyrand, à
+                            Montrond et à leurs entours.</note>. »</quote> Ce qui est hors de doute,
+                    c’est qu’en mourant il avait, ne fût-ce que par complaisance, désavoué la
+                    Révolution.</p>
+                <p>On remarqua que M. Thiers ne vint que deux heures après la mort. Il prit la main
+                    refroidie de celui qui, vivant, lui avait témoigné tant d’attentions et de
+                    bienveillance, et qui avait dit un jour de lui et de sa fortune rapide, en
+                    réponse à quelqu’un qui prononçait le mot de <hi rend="i">parvenu</hi> : « Vous
+                    avez tort, il n’est point parvenu ; il est <hi rend="i">arrivé</hi>. »</p>
+                <p>Les funérailles furent célébrées en grande pompe le 22 mai, à l’église de
+                    l’Assomption. La devise du mort qui ornait le catafalque : <hi rend="i">Re que
+                        Diou</hi>, qu’on traduisait par : <hi rend="i">Rien que Dieu</hi>, mais qui,
+                    selon l’interprétation de la famille, veut dire : <hi rend="i">Pas d’autre roi
+                        que Dieu</hi>, semblait une dernière et sanglante ironie aux yeux de la
+                    foule. Mais le monde fut satisfait ; la société (ainsi qu’elle aime à se
+                    désigner elle-même) était redevenue très indulgente ; elle avait obtenu ce
+                    qu’elle désirait avant tout : M. de Talleyrand, avant de mourir, avait fait sa
+                    paix ; il avait répondu à l’idée qu’on s’était toujours faite de lui,
+                    c’est-à-dire de l’homme qui savait le mieux les convenances, la forme des
+                    choses, ce qu’on doit au monde et ce que le monde peut exiger.</p>
+                <p>Cette manière de finir contraste avec celle de son contemporain et ancien
+                    collègue l’abbé Sieyès, mort sans rétractation deux années auparavant. Il est
+                    vrai que Sieyès s’était éteint dans une sorte d’obscurité, qu’il était avant
+                    tout philosophe, et, par l’esprit du moins, demeuré fidèle à ce grand tiers état
+                    du sein duquel il était sorti et dont il avait été l’annonciateur.
+                    M. de Talleyrand avait eu beau se mêler à la Révolution, il était resté, lui, un
+                    homme de race, gardant au fond beaucoup des idées ou des instincts
+                    aristocratiques. Le baron de Gagern raconte qu’étant à Varsovie et passant des
+                    matinées entières auprès de lui, une des premières choses qu’il exigea fut que
+                    son interlocuteur ne l’appelât plus <hi rend="i">Votre Altesse</hi>, mais
+                    simplement <hi rend="i">M. de Talleyrand</hi>, et sur ce mot d’<hi rend="i"
+                        >Altesse</hi>, il lui arriva de dire : <quote>« Je suis moins, et peut-être
+                        je suis plus »</quote> ; se reportant ainsi à l’orgueil premier de sa race.
+                    Gréé prince de Bénévent, il négligea toujours de remplir les formalités
+                    attachées à ce titre : il croyait apparemment pouvoir s’en passer. Ces traces-là
+                    sont indélébiles, elles reparaissent à l’heure de la mort. On n’est pas grand
+                    seigneur impunément.</p>
+                <p>Cette conversion, ou du moins cette rétractation amenée à bonne fin fit le plus
+                    grand honneur à l’ecclésiastique qui y avait présidé, et fut le grand exploit
+                    catholique qui illustra la jeunesse de l’abbé Dupanloup. Il mérita par son
+                    attitude en cette circonstance que M. Royer-Collard présent, et qui d’ailleurs
+                    n’avait pour lui qu’un goût médiocre, lui dît pour compliment suprême :
+                        <quote>« Monsieur l’abbé, vous êtes un prêtre ! »</quote></p>
+                <p>M. Royer-Collard réservait pourtant le fond de sa pensée ; il avait sur la mort
+                    de M. de Talleyrand un jugement qu’il gardait par-devers lui, mais il ne le
+                    gardait qu’à demi, puisque parlant un jour de l’évêque de Blois, M. de Sausin,
+                    dont il respectait les vertus, il disait : <quote>« Le mot de <hi rend="i"
+                            >vénérable</hi> a été fait pour lui : il est peut-être le seul auquel je
+                        dirais tout ce que je pense de la mort de M. de Talleyrand. »</quote></p>
+                <p>Je fais grâce des plaisanteries de Montrond qui ne tarissait pas sur cette
+                    signature <hi rend="i">in extremis</hi>, et qui, de son ton d’ironie amère et
+                    sèche, ne parlait pas moins que d’un miracle opéré <quote>« entre deux
+                        saintes »</quote>. Ce serait pourtant de bonne prise, car à chacun son
+                    acolyte et son aide de camp favori. Si le pieux Énée avait le fidèle Achate, si
+                    saint Louis a Joinville, si Bayard a le loyal serviteur, si Henri IV ne va pas
+                    sans Sully, si Fénelon a son abbé de Langeron, Talleyrand et Montrond sont
+                    inséparables : et qui pourrait-on écouter de plus voisin de la conscience de
+                    Talleyrand et qui en eût aussi bien la double clef, que Montrond<note
+                        place="bottom" resp="author">On disait de Talleyrand devant Montrond :
+                            <quote>« Il est si aimable ! »</quote> — <quote>« Il est si
+                            vicieux ! »</quote> répondait Montrond. — On cite encore ce court
+                        dialogue : <quote>« Savez-vous, duchesse, pourquoi j’aime assez Montrond ?
+                            disait M. de Talleyrand ; c’est parce qu’il n’a pas beaucoup de
+                            préjugés. » — « Savez-vous, duchesse, pourquoi j’aime tant
+                            M. de Talleyrand ? ripostait Montrond ; c’est qu’il n’en a pas du
+                            tout. »</quote> Mais la légende elle-même s’en est mêlée, et elle leur
+                        en prête.</note> ?</p>
+                <p>À la juger sérieusement et d’après le simple bon sens, cette conversion (si cela
+                    peut s’appeler une conversion) n’offrait pas de si grandes difficultés. Tout y
+                    conspirait en effet : la famille, les entours, le monde ; et le malade lui-même
+                    y était consentant. C’était chose convenue qu’il voulait bien faire sa paix avec
+                    l’Église et avec Rome. La résistance n’était que sur l’instant précis. Il
+                    désirait retarder le plus possible, afin d’être bien sûr que cet instant fût le
+                    dernier de sa vie. L’honneur de le hâter fut dû aux pressantes supplications de
+                    sa petite-nièce, pour laquelle il avait un faible de tendresse et qui obtint ce
+                    qu’elle voulut. Ah ! la difficulté eût été tout autre, s’il s’était agi non plus
+                    d’une soumission, d’une rétractation pour la forme, mais d’une conversion
+                    véritable. J’ai connu, lorsque j’étudiais dans Port-Royal les actes sincères du
+                    vieux christianisme français et gallican, des confesseurs et directeurs de
+                    conscience qui, au chevet d’anciens ministres prévaricateurs et repentants,
+                    exigeaient une réelle et effective pénitence, une pénitence de bon aloi, la
+                    restitution des sommes mal acquises, une réparation en beaux deniers comptants à
+                    ceux à qui l’on avait fait tort. Ces hommes-là étaient ce qu’on appelle des
+                    Jansénistes, des prêtres de vieille roche : on les renie, on les conspue
+                    aujourd’hui. Ah ! il eût fait beau voir un prêtre venir redemander à Talleyrand
+                    expirant de rendre tout le bien mal acquis (comme on disait autrefois), de le
+                    restituer au moins aux pauvres, de faire un acte immense d’aumône — une aumône
+                    proportionnée, sinon égale, au chiffre énorme de sa rapine ! C’est pour le coup
+                    que tout le monde n’eût point applaudi et n’eût pas été content, que la famille
+                    n’y eût point poussé avec un si beau zèle peut-être, que le confesseur aurait eu
+                    un rôle difficile et rare. Mais ici, encore une fois, le siècle et le ciel
+                    conspiraient ensemble : on ne fit qu’enfoncer une porte tout ouverte : la seule
+                    gloire fut de l’avoir enfoncée quelques heures plus tôt.</p>
+                <p>Les Éloges officiels donnèrent partout de concert : M. de Barante à la Chambre
+                    des Pairs, M. Mignet à l’Académie des sciences morales payèrent leur tribut. La
+                    Notice de M. Mignet est des plus belles en son genre, des plus spécieuses, mais
+                    dans un ton nécessairement adouci, et ne montrant que les côtés présentables.
+                    MM. Thiers et Mignet, en tant qu’historiens de la Révolution, avaient été
+                    distingués de bonne heure par M. de Talleyrand, qui, du coin de l’œil, les avisa
+                    entre tous et désira les connaître. Il les considérait comme des truchements et,
+                    jusqu’à un certain point, des apologistes de sa politique auprès des jeunes
+                    générations dont ils étaient les princes par le talent. Il les soignait en
+                    conséquence. Un peu plus tard, il eut sur M. Thiers, ministre, une influence
+                    assez particulière ; mais même avant cela, en accueillant les deux amis avec
+                    cette bonne grâce flatteuse et en les captivant par ses confidences, il savait
+                    ce qu’il faisait : il enchaînait à jamais par les liens d’une reconnaissance
+                    délicate leur entière franchise.</p>
+                <p>Dans tous ces Éloges, on insistait sur un point : c’est que, dans sa longue
+                    carrière, M. de Talleyrand <quote>« n’avait fait de mal à personne »</quote> ;
+                    qu’il avait montré <quote>« un éloignement invariable pour les persécutions et
+                        les violences »</quote>. On devinait là-dessous une protestation indirecte
+                    contre toute participation de son fait dans le meurtre du duc d’Enghien, seule
+                    accusation en effet qu’eussent à cœur de réfuter la famille et les amis : on ne
+                    tient qu’à enlever cette tache de sang ; sur tout le reste on est coulant
+                    désormais. Mais ceci même échappe aux complaisances de situation comme aux
+                    démentis intéressés : l’histoire interrogée sans passion et sans réticences, et
+                    de plus près qu’elle ne l’a encore été jusqu’ici, l’histoire seule répondra.</p>
+                <p>Tous n’étaient pas aussi indulgents que les spirituels panégyristes.
+                    M. de Talleyrand avait pu connaître avant de mourir et lire de ses yeux le
+                    terrible portrait que George Sand avait fait du <hi rend="i">Prince</hi> dans
+                    une des <hi rend="i">Lettres d’un voyageur</hi>, insérée dans la <hi rend="i"
+                        >Revue des Deux Mondes</hi> (octobre 1834). Il est assez piquant de
+                    remarquer que M. de Talleyrand a été peint deux fois, et pas en beau, par les
+                    deux femmes supérieures de ce siècle : M<hi rend="sup">me</hi> Sand a fait de
+                    lui un portrait affreux, d’un parfait idéal de laideur. M<hi rend="sup"
+                    >me</hi> de Staël déjà l’avait peint sous un déguisement, en coiffe et en jupon,
+                    dans le personnage de M<hi rend="sup">me</hi> de Vernon du roman de <hi rend="i"
+                        >Delphine</hi>. C’est un portrait de société, charmant et adouci, mais très
+                    peu flatteur au fond. Il serait curieux d’en rassembler les divers traits épars
+                    qui se rapportent sans aucun doute à la figure et au caractère du modèle. On
+                    aurait ainsi un Talleyrand de salon par une des personnes qui l’ont le mieux
+                    connu.</p>
+                <p>Il n’était pas, il ne pouvait pas être aussi insensible ni aussi égoïste qu’on
+                    l’a dit : les hommes ne sont pas des monstres. Lorsqu’il perdit sa vieille amie,
+                    la princesse de Vaudemont (janvier 1833), il se montra fort affecté. Il est vrai
+                    que Montrond, qui en faisait la remarque, ajoutait : <quote>« C’est la première
+                        fois que je lui ai vu verser des larmes ! »</quote> — Une autre fois encore,
+                    pendant son ambassade à Londres, comme il avait été l’objet, à la Chambre des
+                    lords, d’une violente et inconvenante attaqué du marquis de Londonderry, le duc
+                    de Wellington se leva aussitôt, et il défendit, il vengea en termes chaleureux
+                    son vieil ami, le vétéran des diplomates. Le lendemain, M. de Talleyrand, lisant
+                    ces débats, fut surpris par un visiteur les larmes dans les yeux, tant il était
+                    touché du procédé du duc de Wellington, et il lui échappa de dire :
+                        <quote>« J’en suis d’autant plus reconnaissant à M. le duc, que c’est le
+                        seul homme d’État dans le monde qui ait jamais dit du bien de
+                    moi. »</quote></p>
+                <p>Il n’était pas non plus aussi paresseux qu’on aurait pu le croire et qu’il
+                    affectait par moments de le paraître. Quand M. de Chateaubriand semble vouloir
+                    douter de l’existence des Mémoires entiers de M. de Talleyrand, parce qu’il lui
+                    aurait fallu pour cela un travail continu dont il l’estime peu capable, il se
+                    trompe. Dans son séjour à la campagne et dans sa retraite de Valençay,
+                    M. de Talleyrand travaillait. J’ai sous les yeux des billets de lui à un ami, à
+                    un homme de la société, M. de Giambone<note place="bottom" resp="author">J’en
+                        dois communication à l’obligeance de M. Parent de Rosant, un amateur de
+                        documents contemporains, et que connaissent bien tous ceux qui se sont
+                        occupés de la célèbre comtesse de Boufflers.</note> : il y est plus d’une
+                    fois question de travail, du moins pendant la première partie de l’été.</p>
+                <quote><p rend="right">« 21 juin.</p><p>« J’ai reçu par M. Andral, mon cher
+                        Giambone, une lettre de vous dont je vous remercie. Vous me rapprenez Paris,
+                        que j’avais complètement oublié.</p><p>« Je lis à peine les journaux ; je
+                        travaille et je me promène.</p><p>« Dans l’automne je me promènerai, mais je
+                        ne travaillerai plus.</p><p>« Le mois de juin passé, je m’abandonne à toutes
+                        les pertes de temps que l’on veut… »</p></quote>
+                <p>Et même après le mois de juin, dans une autre lettre du 31 juillet :</p>
+                <quote><p>« Notre vie ici (<hi rend="i">à Valençay</hi>) est fort ordonnée, ce qui
+                        rend les jours fort courts. On se trouve à la fin de la journée, sans avoir
+                        eu un moment de langueur.</p><p>« Ce matin, nos lectures du salon ont été
+                        interrompues par l’arrivée d’un loup, que les gardes venaient de tuer. C’est
+                        un gros événement pour la journée.</p><p>« <hi rend="i">Je travaille chaque
+                            jour plusieurs heures</hi>, et je me porte fort bien… »</p></quote>
+                <p>Que seront ces Mémoires si attendus, si désirés ? Aura-t-il menti tout à fait ?
+                    Non pas, il aura dit une partie de la vérité. Comme le meilleur des panégyristes
+                    et le plus habile, sans avoir l’air d’y toucher, il aura montré, de tout, le
+                    côté décent, présentable, acceptable ; il aura fait là ce qu’il faisait quand il
+                    se racontait lui-même, ne disant qu’une moitié des choses. S’il a su être
+                    agréable dans ses Mémoires, et si, en écrivant comme en causant, il réussit à
+                    plaire, il aura bien des chances de regagner en partie sa cause et de se
+                    relever, même devant la postérité. Le succès dépendra aussi du jugement et de
+                    l’opinion qui prévaudra alors sur le maître tout-puissant qu’il a servi et
+                    abandonné. Si les Mémoires tombent dans une veine et un courant de réaction peu
+                    napoléonienne, ils pourraient bien être portés aux nues. C’est aux exécuteurs
+                    testamentaires, aux éditeurs désignés, s’ils sont libres, de bien flairer le
+                    moment et d’imiter leur auteur en saisissant l’à-propos.</p>
+                <p>Une Étude sur M. de Talleyrand ne serait pas complète si l’on n’indiquait un peu
+                    la physiologie de l’homme, et si l’on ne disait quelque chose de son hygiène et
+                    de son régime. Tout était très particulier chez lui et le séparait du commun de
+                    l’humanité. Il avait la faculté singulière de dormir très peu : il passait la
+                    nuit au jeu ou à causer, ne se couchait, le plus souvent, qu’à quatre heures du
+                    matin et se trouvait réveillé de fort bonne heure. Son pouls avait cette
+                    singularité d’être fort plein et d’avoir une intermittence à chaque sixième
+                    pulsation. Il avait même là-dessus une théorie : il considérait ce manque de la
+                    sixième pulsation comme un temps d’arrêt, un repos de nature, et il paraissait
+                    croire que ces pulsations en moins et qui lui étaient dues devaient se retrouver
+                    en fin de compte et s’ajouter à la somme totale de celles de toute sa vie : ce
+                    qui lui promettait de la longévité. Il expliquait aussi par là son peu de besoin
+                    de sommeil, comme si la nature avait pris ce sommeil en détail et par avance à
+                    petites doses. Il ne mangeait qu’une seule fois le jour, à son dîner, mais il le
+                    faisait large et copieux autant que délicat<note place="bottom" resp="author">Il
+                        disait qu’il avait trouvé aux États-Unis <quote>« trente-deux religions et
+                            un seul plat »</quote>.</note>. Son cuisinier est resté célèbre et
+                    entrait pour une grande part dans la base de son régime, dans la composition de
+                    sa vie.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

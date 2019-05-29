@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xml:lang="fre" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Note.]</title>
+                <author key="Sainte-Beuve, Charles-Augustin (1804-1869)"
+                    ref="https://data.bnf.fr/fr/11923412/charles-augustin_sainte-beuve/">Charles
+                    Augustin Sainte-Beuve</author>
+                <editor/>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Romain Jalabert</name>
+                    <resp>Édition TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Anne-Laure Huet</name>
+                    <resp>Structuration XML-TEI</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://obvil.sorbonne-universite.fr/corpus/</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"
+                            ><p>Copyright © 2018 Université Paris-Sorbonne, agissant pour le
+                            Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après
+                            dénommé OBVIL).</p><p>Pas de Modification : l’OBVIL s’engage à améliorer
+                            et à corriger cette ressource électronique, notamment en intégrant
+                            toutes les contributions extérieures. La diffusion de versions modifiées
+                            de cette ressource n’est pas souhaitable.</p><p>Pas d’Utilisation
+                            Commerciale : dans l’intérêt de la communauté scientifique, toute
+                            utilisation commerciale est interdite.</p><p>Attribution : afin de
+                            référencer la source, toute utilisation ou publication dérivée de cette
+                            ressource électroniques comportera le nom de l’OBVIL et surtout
+                            l’adresse Internet de la ressource.</p><p>Cette ressource électronique
+                            protégée par le code de la propriété intellectuelle sur les bases de
+                            données (L341-1) est mise à disposition de la communauté scientifique
+                            internationale par l’OBVIL, selon les termes de la licence Creative
+                            Commons : « Attribution — Pas d’Utilisation Commerciale — Pas de
+                            Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p></licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author>Charles Augustin Sainte-Beuve</author>, <title>Causeries du
+                        lundi</title>, <edition>3e éd. revue et corrigée</edition>,
+                        <pubPlace>Paris</pubPlace>, <publisher>Garnier frères</publisher>,
+                        <date>1859</date>. </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1859-01-01"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="article" xml:id="art_1859-01-01_d">
+                <head>[Note.]</head>
+                <p>Cet article m’a valu toute une réfutation en règle, qui se trouve en tête d’un
+                    petit volume de <hi rend="i">Chamfort</hi> publié par M. Hetzel (1857). Cet
+                    éditeur, sous le pseudonyme <hi rend="i">Stahl</hi>, vantant son auteur et me
+                    rencontrant sur son chemin, m’a fait la guerre ; rien de plus simple : cela
+                    l’accommodait. Je ne pourrais qu’être flatté de cette marque d’attention, et
+                    même j’aurais à remercier M. <hi rend="i">Stahl</hi>-Hetzel de quelques
+                    politesses qu’il a mêlées à sa critique, s’il ne l’avait pris tout à côté sur un
+                    ton beaucoup plus élevé qu’il ne convenait au cas particulier et, j’ajouterai, à
+                    son rôle, et s’il n’avait dénaturé mes intentions au gré de son esprit de parti
+                    ou de son intérêt d’avocat, lesquels ici se confondent. M. <hi rend="i"
+                        >Stahl</hi>-Hetzel a vu dans mon article sur Chamfort une déclaration et un
+                        <hi rend="i">réquisitoire</hi> contre le <hi rend="i">sonneur de tocsin</hi>
+                    de la Révolution et de la République ; car il me fait l’honneur de me considérer
+                    comme un ennemi de cette forme <pb n="566" xml:id="p566"/>de gouvernement, et il
+                    me donne là-dessus toutes sortes d’avis et de conseils, sans se demander s’il a
+                    bien caractère et qualité pour cela. Si M. <hi rend="i">Stahl</hi>-Hetzel me
+                    connaissait mieux, il saurait que je n’ai de haine ni d’<hi rend="i">hier</hi>
+                    ni d’<hi rend="i">avant-hier</hi> contre aucune forme de gouvernement ; j’ai
+                    profité de l’expérience, et en politique je suis l’homme des faits. Il saurait
+                    de plus, s’il me connaissait, que mes mœurs sont probablement beaucoup plus
+                    populaires et <hi rend="i">égalitaires</hi> que celles de beaucoup de
+                    républicains à enseigne. Est-ce ma faute si jugeant à l’œuvre, en 1848,
+                    plusieurs des amis de M. Hetzel, je n’ai pas appris à les estimer ? Lorsqu’on me
+                    donnera des républicaines comme M<hi rend="sup">me</hi> Roland, lorsqu’on me
+                    montrera des républicains simples, droits, intègres et savants comme M. Littré,
+                    des hommes de pensée, de labeur, de moralité pratique et de haute doctrine
+                    sociale comme M. Proudhon, je les estimerai, je les respecterai, dussé-je ne pas
+                    croire à leur succès possible d’ici à longtemps, à bien longtemps ! mais quand
+                    je n’apercevrai que des hommes plus ou moins spirituels, intrigants, hâbleurs,
+                    vaniteux et, légers, viveurs et prodigues, des hommes de luxe et de fantaisie,
+                    jouant à la république comme ils joueraient à tout autre jeu, pariant de ce côté
+                    sans avoir le sérieux ni les habitudes du régime qu’ils appellent et qu’ils
+                    préconisent, je douterai et je sourirai. Je sourirai surtout lorsque je verrai
+                        M. <hi rend="i">Stahl</hi>-Hetzel ne pas craindre de me rappeler, pour faire
+                    l’agréable, qu’il y a eu un jour où, nommé professeur au Collège de France, il
+                    ne m’a pas été possible, de par les hommes de son opinion et ceux mêmes qui
+                    parlent si haut de liberté, de discourir librement des beautés et du génie de
+                    Virgile ; je m’étonne que M. <hi rend="i">Stahl</hi>-Hetzel, qui est du moins un
+                    garçon d’esprit, et qui ne passe pas pour maladroit, se soit avisé
+                        (page <num>xl</num> de sa <hi rend="i">Notice</hi>) de faire allusion à
+                    cette journée, qui n’est embarrassante et déshonorante que pour d’autres que
+                    moi. Oui, il est très vrai, monsieur, qu’à un certain jour j’ai pu m’assurer que
+                        <hi rend="i">le public et le peuple ne font qu’un</hi>, et sont parfois une
+                    personne ou plutôt une chose aveugle, brutale et déraisonnable ; il est très
+                    vrai que… Mais un ami me tire par l’oreille et m’avertit : « Que vous êtes bon
+                    de répondre avec autant de sérieux à un républicain <hi rend="i">pour
+                    rire</hi> ! » — Pour en revenir à Chamfort qui a servi de prétexte et de point
+                    de départ à la querelle qui m’est faite, je le goûte certes, et je fais le plus
+                    grand cas de son esprit et du tour qu’il y donne ; mais j’ai parlé de son
+                    âcreté, de son acrimonie et de son cynisme final comme en ont parlé presque tous
+                    ceux qui l’ont connu : mon étude a été une étude morale et non politique.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xml:lang="fre" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XI</title>
+                <author key="Sainte-Beuve, Charles-Augustin (1804-1869)"
+                    ref="https://data.bnf.fr/fr/11923412/charles-augustin_sainte-beuve/">Charles
+                    Augustin Sainte-Beuve</author>
+                <editor/>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Romain Jalabert</name>
+                    <resp>Édition TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Anne-Laure Huet</name>
+                    <resp>Structuration XML-TEI</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://obvil.sorbonne-universite.fr/corpus/</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"
+                            ><p>Copyright © 2018 Université Paris-Sorbonne, agissant pour le
+                            Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après
+                            dénommé OBVIL).</p><p>Pas de Modification : l’OBVIL s’engage à améliorer
+                            et à corriger cette ressource électronique, notamment en intégrant
+                            toutes les contributions extérieures. La diffusion de versions modifiées
+                            de cette ressource n’est pas souhaitable.</p><p>Pas d’Utilisation
+                            Commerciale : dans l’intérêt de la communauté scientifique, toute
+                            utilisation commerciale est interdite.</p><p>Attribution : afin de
+                            référencer la source, toute utilisation ou publication dérivée de cette
+                            ressource électroniques comportera le nom de l’OBVIL et surtout
+                            l’adresse Internet de la ressource.</p><p>Cette ressource électronique
+                            protégée par le code de la propriété intellectuelle sur les bases de
+                            données (L341-1) est mise à disposition de la communauté scientifique
+                            internationale par l’OBVIL, selon les termes de la licence Creative
+                            Commons : « Attribution — Pas d’Utilisation Commerciale — Pas de
+                            Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p></licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author>Charles Augustin Sainte-Beuve</author>, <title>Chroniques parisiennes
+                        (1843-1845)</title>, <edition>2e éd.</edition>, <pubPlace>Paris</pubPlace>,
+                        <publisher>C. Lévy</publisher>, <date>1876</date>. </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1843-05-22"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="article" xml:id="art_1843-05-22">
+                <head>II</head>
+                <dateline>Ce 22 mai 1843.</dateline>
+                <argument>
+                    <p><pb n="9" xml:id="p9"/><hi rend="i">les burgraves</hi>, par victor
+                            hugo. — <hi rend="i">judith</hi>, par madame émile de
+                        girardin. — mademoiselle rachel — lamartine et <hi rend="i">toussaint
+                            louverture</hi>, etc.</p>
+                </argument>
+                <p>Il n’y a rien de nouveau ici depuis une quinzaine : on vit littérairement dans
+                    les salons sur ce méchant livre de Lamennais, et sur ce joli chapitre de
+                    Saint-Cyr.</p>
+                <p>Vous pourrez profiter, pour l’article sur les <hi rend="i">Amschaspands</hi>, ou,
+                    comme on dit, les <hi rend="i">chenapans</hi> de Lamennais, de l’article des <hi
+                        rend="i">Débats</hi> du 1<hi rend="sup">er</hi> mars, lequel article est de
+                    M. Cuvillier-Fleury.</p>
+                <p>On attend patiemment <hi rend="i">les Burgraves</hi>, et puis <hi rend="i"
+                        >Judith.</hi> Madémoiselle Rachel a récité chez elle, à l’un de ses jeudis
+                    soirs, une scène ou même un acte de <hi rend="i">Judith</hi> qui a réussi, et un
+                    de <hi rend="i">Bérénice</hi> qui a paru moins satisfaire. — Ne mettez jamais
+                    trop d’épigrammes contre madame de Girardin, je vous en prie ; car je ne veux
+                    pas paraître un traître à ses sourires.</p>
+                <p>— La politique a recommencé d’hier sur les fonds <pb n="10" xml:id="p10"
+                    />secrets, c’est un débat très-attendu et qui promet d’être décisif. M. Guizot a
+                    eu hier un premier éloquent succès, et tout annonce la réussite du
+                    ministère.</p>
+                <p>Il vient d’en obtenir un second, le 2, celui-ci encore plus éloquent contre M. de
+                    Lamartine qui est en veine de désastres.</p>
+                <p>Dans la <hi rend="i">Revue des Deux Mondes</hi> du 1<hi rend="sup">er</hi> mars,
+                    il y a une chronique où Rossi, nageant entre deux ou trois eaux, et ne voulant
+                    guère parler de choses d’ici, a très-bien parlé, ce me semble, de Genève et de
+                    la Suisse.</p>
+                <p>Les lettres (anonymes) d’un député sur la question ministérielle, dans la <hi
+                        rend="i">Revue</hi>, sont de M. Vivien, ancien ministre du 1<hi rend="sup"
+                        >er</hi> mars.</p>
+                <p>— Il y a, dans ce même numéro, des vers de Lamartine<note place="bottom">Le
+                        discours de Toussaint Louverture aux noirs de Saint-Domingue.</note>,
+                    quelques-uns assez beaux et le tout en somme assez mauvais pourtant. Une faute
+                    de français énorme pour un académicien :</p>
+                <p><hi rend="i">Martyres</hi> dans le ciel ou libres sur la terre ; — pour <hi
+                        rend="i">martyrs.</hi></p>
+                <p>Il y a des bévues anatomiques dans ce même morceau de Lamartine : on reconnaît en
+                    effet très-bien un squelette de nègre d’avec un squelette de blanc. Il y a bien
+                    d’autres différences que la peau : l’angle facial, etc.</p>
+                <p>— Il vient de paraître des Mémoires du maréchal de La Force du temps de la Ligue,
+                    de Henri IV et de Louis XIII, qui contiennent, dit-on, beaucoup de choses
+                    inédites, lettres de Henri IV et autres ; enfin c’est un supplément <pb n="11"
+                        xml:id="p11"/>utile aux Mémoires de ce temps. L'éditeur est le marquis de La
+                    Grange, député de la nuance et du cortége de Lamartine et allié par sa femme aux
+                    Caumont de La Force.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
